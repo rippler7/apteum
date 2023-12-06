@@ -6,22 +6,20 @@ import {
     Button,
     IconButton
 } from '@material-tailwind/react'
-function NavBar(){
+function NavBarContainer(){
     return(
-        <Navbar>
-            <div className='flex-wrap justify-between'>
+            <div className='flex justify-between'>
                 <div>
                     <a>link</a>
-                    </div>
-                    <div>
+                </div>
+                <div>
                     <img src={apteumLogo} height={20} width={100} alt=""  />
-                    </div>
-                    <div>
+                </div>
+                <div>
                     <a>link</a>
                 </div>
             </div>
-        </Navbar>
     )
 }
 
-export default NavBar
+export default NavBarContainer

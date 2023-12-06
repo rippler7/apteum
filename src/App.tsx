@@ -1,10 +1,10 @@
-import NavBar from './components/NavBar'
+import NavBarContainer from './components/NavBar'
 import './App.css'
 
 function App() {
   return (
     <div>
-    <NavBar />
+    <NavBarContainer />
       <div className='w-full h-screen'>
         
       
