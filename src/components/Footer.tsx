@@ -1,12 +1,13 @@
-import apteumLogo from '../assets/Apteum_logo_RGB.svg'
-function NavBarContainer(){
+import ApteumW from '../assets/Apteum_logo_WHITE.svg'
+
+function Footer (){
     return(
-        <>
-            <div id='navigationBar' className='flex justify-between p-3'>
+        
+            <div id='footerBar' className='flex absolute bottom-0 justify-between p-3 w-full'>
                 <div>
-                    <img src={apteumLogo} height={20} width={100} alt=""  />
+                    <img src={ApteumW} height={20} width={100} alt=""  />
                 </div>
-                <div className='flex justify-between align-center px-5 pl-5'>
+                <div className='flex flex-wrap justify-between'>
                     <div clear-right>
                         <a>link 1</a>
                     </div>
@@ -21,8 +22,8 @@ function NavBarContainer(){
                     </div>
                 </div>
             </div>
-        </>
+       
     )
 }
 
-export default NavBarContainer
+export default Footer

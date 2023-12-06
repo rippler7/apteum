@@ -38,3 +38,12 @@
 .read-the-docs {
   color: #888;
 }
+
+#navigationBar{
+ background-color: #FFFFFF; 
+}
+
+#footerBar, #footerBar a {
+  color:#FFF;
+  background-color: #002d2e;
+}
