@@ -2,11 +2,11 @@ import apteumLogo from '../assets/Apteum_logo_RGB.svg'
 function NavBarContainer(){
     return(
         <>
-            <div id='navigationBar' className='flex justify-between p-3'>
+            <div id='navigationBar' className='h-15 absolute flex justify-between p-3 w-full'>
                 <div>
-                    <img src={apteumLogo} height={20} width={100} alt=""  />
+                    <img src={apteumLogo} width={100} alt=""  />
                 </div>
-                <div className='flex justify-between align-center px-5 pl-5'>
+                <div className='flex justify-between align-center px-15 pl-5'>
                     <div clear-right>
                         <a>link 1</a>
                     </div>

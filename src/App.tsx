@@ -4,16 +4,13 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <div>
+    <div className='flex h-screen justify between'>
       <NavBarContainer />
-      <div className='w-full h-screen'>
-        
+      <div className='w-full h-screen mb-auto'>     
       
-      <h1>Looking for an opportunity to expand?</h1>
+        <h1>Looking for an opportunity to expand?</h1>
       </div>
-      <p className="read-the-docs">
-        Click on the logo to learn more
-      </p>
+      
       <Footer />
     </div>
   )
