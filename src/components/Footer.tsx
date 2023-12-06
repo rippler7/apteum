@@ -3,7 +3,7 @@ import ApteumW from '../assets/Apteum_logo_WHITE.svg'
 function Footer (){
     return(
         
-            <div id='footerBar' className='flex absolute bottom-0 justify-between px-15 p-3 w-full items-start'>
+            <div id='footerBar' className='flex absolute bottom-0 justify-between px-15 p-3 w-full items-center'>
                 <div>
                     <img src={ApteumW} height={20} width={100} alt=""  />
                 </div>

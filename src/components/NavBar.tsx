@@ -2,7 +2,7 @@ import apteumLogo from '../assets/Apteum_logo_RGB.svg'
 function NavBarContainer(){
     return(
         <>
-            <div id='navigationBar' className='h-15 absolute flex justify-between p-3 w-full'>
+            <div id='navigationBar' className='h-15 relative flex justify-between p-3 w-full'>
                 <div>
                     <img src={apteumLogo} width={100} alt=""  />
                 </div>
