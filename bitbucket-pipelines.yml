@@ -1,0 +1,54 @@
+#  Template NodeJS build
+
+#  This template allows you to validate your NodeJS code.
+#  The workflow allows running tests and code linting on the default branch.
+
+image: node:18
+
+definitions:
+  steps:
+    - step: &test-and-lint
+        name: Test & Lint
+        script:
+          - npm install
+          - yarn lint
+        caches:
+          - node
+    - step: &build
+        name: Build
+        caches:
+          - node
+        script:
+          - npm install
+          - yarn build
+        artifacts:
+          - dist/**
+
+pipelines:
+  default:
+    - parallel:
+        - step: *test-and-lint
+        - step: *build
+  branches:
+    develop:
+      - parallel:
+        - step: *test-and-lint
+        - step: *build
+      - step:
+          name: Deploy to Staging
+          deployment: staging
+          script:
+            - pipe: atlassian/aws-s3-deploy:1.5.0
+              variables:
+                AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+                AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+                AWS_DEFAULT_REGION: $AWS_DEFAULT_REGION
+                S3_BUCKET: 'apteum-web-staging'
+                LOCAL_PATH: 'dist'
+
+            - pipe: atlassian/aws-cloudfront-invalidate:0.1.1
+              variables:
+                AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
+                AWS_SECRET_ACCESS_KEY: $AWS_SECRET_ACCESS_KEY
+                AWS_DEFAULT_REGION: $AWS_DEFAULT_REGION
+                DISTRIBUTION_ID: 'EWTLXJ8S805NM'
