@@ -2,8 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family:'LibreCaslonCondensed-Medium';
+  src: local('LibreCaslonCondensed-Medium'),url('./fonts/LibreCaslonCondensed-Medium.otf') format('otf');
+}
+
 :root {
-  font-family: 'fonts/LibreCaslonCondensed-Medium.otf',serif;
+  font-family: 'LibreCaslonCondensed-Medium',serif;  
   color-scheme: light dark;
   color: #002d2e;
   background-color: #edf4f3;
