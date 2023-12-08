@@ -3,15 +3,13 @@
 @tailwind utilities;
 
 :root {
-  font-family: 'fonts/FreightDisplay-Medium.otf', serif;
-  line-height: 1.5;
-  font-weight: normal !important;
-
+  font-family: 'fonts/LibreCaslonCondensed-Medium.otf', serif;
   color-scheme: light dark;
   color: #002d2e;
   background-color: #edf4f3;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size:20px;
 }
 
 a {
