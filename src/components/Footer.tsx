@@ -1,24 +1,35 @@
 import ApteumW from '../assets/Apteum_logo_WHITE.svg'
-
+import lnIconW from '../assets/icons8-linkedin-100-white.svg'
 function Footer (){
     return(
         
-            <div id='footerBar' className='flex absolute bottom-0 justify-between px-15 p-3 w-full items-center'>
-                <div>
-                    <img src={ApteumW} height={20} width={100} alt=""  />
-                </div>
-                <div className='flex flex-wrap justify-between items-center w-50 w-60'>
+            <div id='footerBar' className='flex absolute bottom-0 w-full justify-between'>
+                <div className='flex justify-between w-full items-center px-10 p-3'>
                     <div>
-                        <a>link 1</a>
+                        <img src={ApteumW} height={20} width={100} alt=""  />
                     </div>
-                    <div>
-                        <a>link 2</a>
-                    </div>
-                    <div>
-                        <a>link 3</a>
-                    </div>
-                    <div>
-                        <a>link 4</a>
+                    <div className='flex justify-between items-center w-200'>
+                        <div className='px-5'>
+                            <a>Expertise</a>
+                        </div>
+                        <div className='px-5'>
+                            <a>Our Story</a>
+                        </div>
+                        <div className='px-5'>
+                            <a>Our Experts</a>
+                        </div>
+                        <div className='px-5'>
+                            <a>Careers</a>
+                        </div>
+                        <div className='px-5'>
+                            <a>FAQ</a>
+                        </div>
+                        <div className='px-5'>
+                            <a>Careers</a>
+                        </div>
+                        <div>
+                            <a><img src={lnIconW} width={25} height={25} /></a>
+                        </div>
                     </div>
                 </div>
             </div>
