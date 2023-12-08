@@ -7,7 +7,7 @@ function Footer (){
                 <div>
                     <img src={ApteumW} height={20} width={100} alt=""  />
                 </div>
-                <div className='flex flex-wrap justify-between items-center w-50 '>
+                <div className='flex flex-wrap justify-between items-center w-50 w-60'>
                     <div>
                         <a>link 1</a>
                     </div>

@@ -6,7 +6,7 @@ function NavBarContainer(){
                 <div>
                     <img src={apteumLogo} width={100} alt=""  />
                 </div>
-                <div className='flex justify-between align-center px-15 pl-5'>
+                <div className='flex justify-between align-center px-15 w-60'>
                     <div clear-right>
                         <a>link 1</a>
                     </div>
