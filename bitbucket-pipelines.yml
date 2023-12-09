@@ -38,6 +38,7 @@ pipelines:
           name: Deploy to Staging
           deployment: staging
           script:
+            - mv robots.txt.staging dist/robots.txt
             - pipe: atlassian/aws-s3-deploy:1.5.0
               variables:
                 AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY_ID
