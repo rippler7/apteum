@@ -9,12 +9,12 @@ function SectionOne(){
                 <div className='w-full h-70'>
                     <h1>Looking to grow?</h1>
                 </div>
-                <div className='tagline w-full px-20 h-30'>
+                <div className='tagline w-full px-20 py-30 h-30'>
                     <p>
                        <h3>Apteum pairs you with professionals abroad to build bespoke staffing solutions</h3>
                     </p>
                 </div>
-                <div className='w-full h-20'>
+                <div className='w-full h-20 py-20'>
                     <button>
                         To Expertise
                     </button>
