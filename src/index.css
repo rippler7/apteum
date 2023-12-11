@@ -65,6 +65,26 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+h1{
+  padding:1em;
+  font-size: 4rem;
+}
+
+.tagline h3{
+  font-size: 1.8em;
+}
+
+button {
+  background-color: #dfbea6; /* Peach */
+  border: none;
+  color: #002d2e;
+  font-size:1.5em;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

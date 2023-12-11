@@ -6,16 +6,18 @@ function SectionOne(){
                 &nbsp;
             </div>
             <div className='flex-col justify-between h-full w-full items-center align-items p-50'>
-                <div className='w-full'>
+                <div className='w-full h-70'>
                     <h1>Looking to grow?</h1>
                 </div>
-                <div className='w-full'>
+                <div className='tagline w-full px-20 h-30'>
                     <p>
                        <h3>Apteum pairs you with professionals abroad to build bespoke staffing solutions</h3>
                     </p>
                 </div>
-                <div className='w-full'>
-                    &nbsp;
+                <div className='w-full h-20'>
+                    <button>
+                        To Expertise
+                    </button>
                 </div>
             </div>
         </div>
