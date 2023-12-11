@@ -4,7 +4,7 @@
 
 @font-face {
   font-family:'LibreCaslonCondensed-Medium';
-  src: local('LibreCaslonCondensed-Medium'),url('./fonts/LibreCaslonCondensed-Medium.otf') format('otf');
+  src: local('LibreCaslonCondensed-Medium'), url('./fonts/LibreCaslonCondensed-Medium.otf'), format('otf');
 }
 
 :root {

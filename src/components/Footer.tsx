@@ -3,7 +3,7 @@ import lnIconW from '../assets/icons8-linkedin-100-white.svg'
 function Footer (){
     return(
         
-            <div id='footerBar' className='flex flex-col absolute bottom-0 w-full justify-between'>
+            <div id='footerBar' className='flex flex-col relative bottom-0 w-full justify-between'>
                 <div className='flex justify-between w-full items-center px-10 pt-3'>
                     <div>
                         <img src={ApteumW} height={20} width={100} alt=""  />
