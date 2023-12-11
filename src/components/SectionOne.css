@@ -1,0 +1,8 @@
+.heroImg{
+    background-image: url('../assets/DSC09860.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:50%;
+    height:100%;
+}

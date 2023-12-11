@@ -1,0 +1,14 @@
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .animated-text {
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .animated-text.fade-out {
+    opacity: 0;
+  }
