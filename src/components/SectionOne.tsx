@@ -14,7 +14,7 @@ function SectionOne(){
                        <h3>Apteum pairs you with professionals abroad to build bespoke staffing solutions</h3>
                     </p>
                 </div>
-                <div className='w-full h-20 py-20'>
+                <div className='w-full h-full py-20'>
                     <button>
                         To Expertise
                     </button>
