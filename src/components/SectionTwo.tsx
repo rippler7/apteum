@@ -1,8 +1,8 @@
-import './SectionOne.css';
-function SectionOne(){
+import './SectionTwo.css';
+function SectionTwo(){
     return(
         <div className='secOneBody flex w-full justify-between items-center h-full py-10'>
-            <div className='heroImg w-50'>
+            <div className='heroImg'>
                 &nbsp;
             </div>
             <div className='flex flex-col justify-center h-full w-full items-center align-items'>
@@ -27,4 +27,4 @@ function SectionOne(){
     )
 }
 
-export default SectionOne;
+export default SectionTwo;
