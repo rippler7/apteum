@@ -4,7 +4,7 @@ function Footer (){
     return(
         
             <div id='footerBar' className='flex bottom-0 fixed mb-auto w-full justify-between items-center align-middle'>
-                <div className='items-center align-middle px-20'>
+                <div className='items-center align-middle px-10'>
                         <img src={ApteumW} height={50} width={130} alt=""  />
                     </div>
                 <div>
