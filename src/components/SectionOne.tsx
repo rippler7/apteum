@@ -1,11 +1,11 @@
 import './SectionOne.css';
 function SectionOne(){
     return(
-        <div className='secOneBody flex w-full justify-between items-center h-full py-10'>
-            <div className='heroImg w-50'>
+        <div className='secOneBody flex w-full justify-between items-center h-full pt-10'>
+            <div className='heroImg h-full'>
                 &nbsp;
             </div>
-            <div className='flex flex-col justify-center h-full w-full items-center align-items'>
+            <div className='flex flex-col justify-center h-full items-center align-items'>
                 <div className='w-full align-bottom'>
                     <h1>Looking to grow?</h1>
                 </div>
