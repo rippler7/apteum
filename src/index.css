@@ -59,10 +59,11 @@ button {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  transition: border-color 0.25s;
+  transition: background-color 0.30s;
 }
 button:hover {
-  border-color: #002d2e;
+  background-color: #002d2e;
+  color: #FFF;
 }
 button:focus,
 button:focus-visible {

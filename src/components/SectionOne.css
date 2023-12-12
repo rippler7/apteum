@@ -6,3 +6,7 @@
     width:50%;
     height:100%;
 }
+
+.secOneBody {
+    background: url('../assets/worldMap.png') bottom right no-repeat;
+}
