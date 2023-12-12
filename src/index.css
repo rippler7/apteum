@@ -72,11 +72,19 @@ button:focus-visible {
 
 h1{
   padding:1em;
-  font-size: 4rem;
+  font-size: 100px;
 }
 
-.tagline h3{
-  font-size: 1.8em;
+h2{
+  font-size:72px;
+}
+
+h3{
+  font-size: 40px;
+}
+
+h4{
+  font-size: 28px;;
 }
 
 @media (prefers-color-scheme: light) {

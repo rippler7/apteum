@@ -2,6 +2,7 @@ import NavBarContainer from './components/NavBar'
 import './App.css';
 import SectionOne from './components/SectionOne'
 import SectionTwo from './components/SectionTwo'
+import SectionThree from './components/SectionThree'
 //import './components/TextAnimation.css'
 //import TextAnim from './components/TextAnimation'
 import Footer from './components/Footer'
@@ -16,6 +17,9 @@ function App() {
         </div>
         <div className='w-full h-screen mb-auto'>     
           <SectionTwo />       
+        </div>
+        <div className='w-full h-screen mb-auto'>     
+          <SectionThree />       
         </div>
       </div>
       <div className='w-full'><Footer /></div>

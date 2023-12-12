@@ -1,0 +1,23 @@
+.secThreeBody {
+    background-color: #edf4f3;
+}
+
+div.s3Feat{
+    background-color: #dfbea6;
+    margin-bottom: 3em;
+}
+
+div.s3Feat1{
+    background: url('../assets/DSC09983.jpg') bottom left no-repeat;
+    background-size:cover;
+}
+
+div.s3Feat2{
+    background: url('../assets/DSC00022.jpg') center center no-repeat;
+    background-size:cover;
+}
+
+div.s3Feat3{
+    background: url('../assets/DSC09770.jpg') bottom center no-repeat;
+    background-size:cover;
+}

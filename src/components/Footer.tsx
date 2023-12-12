@@ -34,7 +34,7 @@ function Footer (){
                     </div>
                 </div>
                 <div className='w-full items-center text-right px-10 py-3'>
-                    <h3>&#64; 2023 Apteum. All Rights Reserved.</h3>
+                    <h4>&#64; 2023 Apteum. All Rights Reserved.</h4>
                 </div>
                 </div>
             </div>

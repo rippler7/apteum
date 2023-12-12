@@ -1,7 +1,7 @@
 import './SectionOne.css';
 function SectionOne(){
     return(
-        <div className='secOneBody flex w-full justify-between items-center h-full pt-10'>
+        <div id="sec1" className='secOneBody flex w-full justify-between items-center h-full pt-10'>
             <div className='heroImg h-full'>
                 &nbsp;
             </div>
@@ -14,7 +14,7 @@ function SectionOne(){
                        <h3>Apteum pairs you with professionals abroad to build bespoke staffing solutions</h3>
                     </p>
                 </div>
-                <div className='w-full py-20'>
+                <div className='w-full pt-20'>
                     <button>
                         To Expertise
                     </button>
