@@ -1,6 +1,4 @@
-import { useState } from "react";
 import '../components/Sidebar.css'
-
 
 const Sidebar = () => {
     return(

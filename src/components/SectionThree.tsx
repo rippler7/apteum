@@ -6,7 +6,7 @@ function SectionThree(){
             <div className='flex flex-col justify-evenly h-full w-full items-center align-items'>
                     <div className='tagline w-full px-20'>
                         
-                        <h2>How can we help you? </h2>
+                        <h2>How can we help you?</h2>
                         
                     </div>
                     <div className='flex justify-between px-5 items-center'>
@@ -18,7 +18,7 @@ function SectionThree(){
                                 <h3>Employers</h3>
                                 <br />
                                 <br />
-                                <h5><p>Assemble a team that will thrive across countries. Enjoy the operational flexibility, enhanced efficiency and lasting results achieved by working in multiple time zones. Hand-pick your new staff or leave recruitment to us. </p></h5>
+                                <h5><p>Assemble a team that will thrive across countries. Enjoy the operational flexibility, enhanced efficiency and lasting results achieved by working in multiple time zones. Hand-pick your new staff or leave recruitment to us.</p></h5>
                             </div>
                         </div>
                         <div className='px-10 flex flex-col justify-start items-center'>
@@ -29,7 +29,7 @@ function SectionThree(){
                                 <h3>Job seekers</h3>
                                 <br />
                                 <br />
-                                <h5><p>Join a business that values people, fosters talent, provides training and offers career advancement. Access a range of professional benefits, including health insurance, and work reasonable hours for a fair wage. </p></h5>
+                                <h5><p>Join a business that values people, fosters talent, provides training and offers career advancement. Access a range of professional benefits, including health insurance, and work reasonable hours for a fair wage.</p></h5>
                             </div>
                         </div>
                         <div className='px-10 flex flex-col justify-start items-center'>
