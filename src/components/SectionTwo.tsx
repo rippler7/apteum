@@ -5,9 +5,9 @@ function SectionTwo(){
             
             <div className='flex flex-col justify-evenly h-full w-full items-center align-items'>
                     <div className='tagline w-full px-20'>
-                        <p>
+                        
                         <h3>Working from Melbourne, Australia and Cebu City, the Philippines, Apteum is a growing team of professionals and specialists with a passion for business, technology and problem solving.</h3>
-                        </p>
+                        
                     </div>
                     <div className='flex justify-between px-5'>
                         <div className='px-10'>

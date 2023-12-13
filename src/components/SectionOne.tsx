@@ -10,13 +10,13 @@ function SectionOne(){
                 <img src={heroImg}  className="w-full h-full object-cover" alt="" />
                 </div>
                 <div className="w-full text-center">        
-                    <p>
+                    
                         <h2>Looking to grow?</h2>
-                    </p>
+                   
                     <br />
-                    <p>
+                    
                         <h4 className='px-1.5'>Apteum pairs you with professionals abroad to build bespoke staffing solutions</h4>
-                    </p>
+                    
                     <br />
                 <a className="button mb-2 inline-block bg-primary px-12 pt-4 pb-3.5 text-sm"
                     data-te-ripple-init data-te-ripple-color="light" href="#!" role="button">Get started</a>

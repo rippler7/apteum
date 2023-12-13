@@ -1,7 +1,5 @@
 import apteumLogo from '../assets/Apteum_logo_RGB.svg'
-import Sidebar from '../components/Sidebar'
-// import hmbrgr from '../assets/Hamburger.svg';
-
+import '../components/Sidebar.css'
 
 function NavBarContainer(){
     return(
@@ -11,12 +9,15 @@ function NavBarContainer(){
                     <a><img src={apteumLogo} width={120} alt=""  /></a>
                 </div>
                 <div className='flex align-right w-15 px-3'>                    
-                    <div className='hmbrgr w-100 align-right'>
-                        &nbsp;
+                    <div id="hMenu" className='hmbrgr w-100 align-right'>
+                        <br />
+                    </div>
+                    <div id='mSidebar' className="mainSidebar">
+                        <h4>This is a test.</h4>
                     </div>
                 </div>
             </div>
-            <Sidebar />
+            
     </>    
     )
 }

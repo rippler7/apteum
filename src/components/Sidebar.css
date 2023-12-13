@@ -1,3 +1,54 @@
-.mainSidebar {
+div#mSidebar {
     background-color: #DFBEA6;
+    top:0;
+    right: -35vw;
+    width: 35vw;
+    padding:10px;
+    position:fixed;
+    height:100%; 
+    z-index:10;
+    transition: right 1s;
 }
+
+div#hMenu:hover + div#mSidebar {
+    right:0px;
+}
+
+div#mSidebar:hover {
+    right: 0;
+    transition:right 1s;
+}
+
+
+
+.toggle-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .menubar-content {
+    padding: 20px;
+  }
+  
+  .close-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .menubar-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menubar-content li {
+    margin-bottom: 10px;
+    color: white;
+    font-size: 18px;
+  }
