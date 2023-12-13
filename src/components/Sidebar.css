@@ -1,4 +1,4 @@
-div#mSidebar {
+/* div#mSidebar {
     background-color: #DFBEA6;
     top:0;
     right: -35vw;
@@ -7,17 +7,17 @@ div#mSidebar {
     position:fixed;
     height:100%; 
     z-index:10;
-    transition: right 1s;
-}
+    transition: right 0.5s;
+} */
 
-div#hMenu:hover + div#mSidebar {
+/* div#hMenu:hover + div#mSidebar {
     right:0px;
-}
+} */
 
-div#mSidebar:hover {
+/* div#mSidebar:hover {
     right: 0;
-    transition:right 1s;
-}
+    transition:right 0.5s;
+} */
 
 
 
