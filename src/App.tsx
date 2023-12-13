@@ -9,7 +9,7 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className='flex flex-col h-screen w-full justify-between align-items'>
+    <div className='flex flex-col h-screen w-full justify-between align-items items-center min-h-screen'>
       <div className='w-full'><NavBarContainer /></div>
       <div>
         <div className='w-full h-screen mb-auto'>     
