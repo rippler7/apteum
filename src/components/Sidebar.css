@@ -10,7 +10,7 @@ div#mSidebar {
     transition: right 0.5s;
 }
 
-.hovered {
+div#hMenu:hover + div#mSidebar, .hovered {
     right:0px;
 } 
 
