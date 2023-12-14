@@ -9,7 +9,7 @@ function SectionTwo(){
                         <h3>Working from Melbourne, Australia and Cebu City, the Philippines, Apteum is a growing team of professionals and specialists with a passion for business, technology and problem solving.</h3>
                         
                     </div>
-                    <div className='flex justify-between px-5'>
+                    <div className='grid gap-20 lg:grid-cols-3 justify-between'>
                         <div className='px-10'>
                             <h4 className='highLighted'><p>Connect with a global workforce.</p></h4>
                             <br />

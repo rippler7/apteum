@@ -15,6 +15,7 @@ div.s3Feat1{
 div.s3Feat2{
     background: url('../assets/DSC00022.jpg') center center no-repeat;
     background-size:cover;
+    top:0px;
 }
 
 div.s3Feat3{

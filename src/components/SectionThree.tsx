@@ -3,13 +3,13 @@ function SectionThree(){
     return(
         <div id="sec3" className='secThreeBody flex w-full justify-between items-center h-full py-10'>
             
-            <div className='flex flex-col justify-evenly h-full w-full items-center align-items'>
+            <div className='grid justify-evenly h-full w-full items-center align-items'>
                     <div className='tagline w-full px-20'>
                         
                         <h2>How can we help you?</h2>
                         
                     </div>
-                    <div className='flex justify-between px-5 items-center'>
+                    <div className='grid gap-12 lg:grid-cols-3 justify-between px-5 items-center'>
                         <div className='px-10 flex flex-col justify-start items-center'>
                             <div className='s3Feat s3Feat1 w-80 h-80 '>
                                 &nbsp;

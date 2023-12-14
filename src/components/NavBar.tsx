@@ -1,4 +1,4 @@
-import apteumLogo from '../assets/Apteum_logo_RGB.svg'
+import apteumLogo from '../assets/Apteum_logo_WHITE.svg'
 import {useState} from 'react'
 import '../components/Sidebar.css'
 
