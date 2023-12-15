@@ -1,7 +1,7 @@
 div#mSidebar {
     background-color: #DFBEA6;
     top:0;
-    right: -45vw;
+    right: 0vw;
     width: 45vw;
     padding:10px;
     position:fixed;
@@ -10,7 +10,7 @@ div#mSidebar {
     transition: right 0.5s;
 }
 
-div#hMenu:hover + div#mSidebar, .hovered {
+.hovered {
     right:0px;
 } 
 
