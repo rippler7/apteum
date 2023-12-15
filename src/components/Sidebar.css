@@ -2,7 +2,7 @@ div#mSidebar {
     background-color: #DFBEA6;
     top:0;
     right: 0vw;
-    width: 45vw;
+    width: 40vw;
     padding:10px;
     position:fixed;
     height:100%; 
@@ -59,4 +59,11 @@ div#mSidebar:hover {
 
   .xBtnClose:hover{
     fill:#FFF;
+  }
+
+  .mainMenuList li{
+    margin: 1.3em auto;
+  }
+  .mainMenuList li:hover a{
+    text-decoration:underline;
   }

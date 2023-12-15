@@ -7,11 +7,8 @@ function SectionFour(){
             <div className="grid">
                 <div className="container px-6 justify-center mx-auto mb-10">
 
-                    <h1 className="text-2xl text-center lg:text-3xl mt-10">Our people are what makes Apteum a leader in the industry</h1>
+                    <h2 className="text-center mt-10">Our people are what makes Apteum a leader in the industry</h2>
 
-                    <p className="max-w-2xl mx-auto mt-6 text-center">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo incidunt ex placeat modi magni quia error alias, adipisci rem similique, at omnis eligendi optio eos harum.
-                    </p>
                 </div>
             </div>
 
@@ -20,7 +17,7 @@ function SectionFour(){
                 
                     <div className="flex flex-col items-center p-4 border sm:p-6 rounded-xl">
                     <img className="object-cover w-full rounded-xl aspect-square" src={"/src/assets/headshots/IMG_6272.JPG"} alt="" />
-                        <h1 className="mt-4 text-2xl font-semibold capitalize">Dan Fabro</h1>
+                        <h3 className="mt-4 text-2xl font-semibold capitalize">Dan Fabro</h3>
 
                         <p className="mt-2 capitalize">design director</p>
 
@@ -56,7 +53,7 @@ function SectionFour(){
                     
                     <div className="flex flex-col items-center p-4 border sm:p-6 rounded-xl">
                     <img className="object-cover w-full rounded-xl aspect-square" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="" />
-                        <h1 className="mt-4 text-2xl font-semibold capitalize">arthur melo</h1>
+                        <h3 className="mt-4 text-2xl font-semibold capitalize">arthur melo</h3>
 
                         <p className="mt-2 capitalize">design director</p>
 
@@ -92,7 +89,7 @@ function SectionFour(){
 
                     <div className="flex flex-col items-center p-4 border sm:p-6 rounded-xl">
                     <img className="object-cover w-full rounded-xl aspect-square" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="" />
-                        <h1 className="mt-4 text-2xl font-semibold capitalize">arthur melo</h1>
+                        <h3 className="mt-4 text-2xl font-semibold capitalize">arthur melo</h3>
 
                         <p className="mt-2 capitalize">design director</p>
 
