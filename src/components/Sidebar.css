@@ -52,3 +52,11 @@ div#mSidebar:hover {
     color: white;
     font-size: 18px;
   }
+
+  .closeBtn:hover {
+    color:#fff;
+  }
+
+  .xBtnClose:hover{
+    fill:#FFF;
+  }
