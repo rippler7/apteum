@@ -15,17 +15,7 @@ function NavBarContainer(){
                     <div id="hMenu" onClick={()=>{setShowSidebar(!showSidebar)}} className={'hmbrgr w-100 align-right'}>
                         <br />
                     </div>          
-        
-                    <Transition 
-                        show={showSidebar}
-                        enter="transition ease-out duration-100 lg:right-[35vw] md:right-100vw"
-                        enterFrom="right-0"
-                        enterTo="lg:right-[35vw] md:right-100vw"
-                        leave="transition ease-in duration-100 lg:right-0 md:right-0"
-                        leaveFrom="lg:right-[35vw] md:right-100vw"
-                        leaveTo="right-0"
-                    >
-                        <div id='mSidebar' className='transition duration-100 grid w-full pt-10 right-0'>
+                    <div id='mSidebar' className='transition duration-100 grid w-full pt-10 right-[-40vw]'>
                             <div className='flex justify-center w-full h-10 text-right items-center'>
                                 <div className='w-full items-center align-middle text-center'>
                                     <h4><br /></h4>
@@ -68,7 +58,17 @@ function NavBarContainer(){
                                 </ul>
                             </div>                       
                         </div>
-                    </Transition>
+                    {/* {<Transition 
+                        show={showSidebar}
+                        enter="transition ease-out duration-100 lg:right-[35vw] md:right-100vw"
+                        enterFrom="lg:right-[35vw] md:right-100vw"
+                        enterTo="right-0"
+                        leave="transition ease-in duration-100 lg:right-0 md:right-0"
+                        leaveFrom="right-0"
+                        leaveTo="lg:right-[35vw] md:right-100vw"
+                    >
+                        
+                    </Transition>} */}
                 </div>
             </div>            
     

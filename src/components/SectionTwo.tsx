@@ -17,16 +17,14 @@ function SectionTwo(){
                             <h4><p>Minimise crunch and skills shortages when it matters most.</p></h4>
                         </div>
                         <div className='px-10'>
-                            <h4><p>Connect with a global workforce.</p></h4>
+                            <h4><p>Scale your business quickly and efficiently.</p></h4>
                             <br />
                             <br />
                             <h4><p>Minimise crunch and skills shortages when it matters most.</p></h4>
                         </div>
                         <div className='px-10'>
-                            <h4><p>Connect with a global workforce.</p></h4>
+                            <h4><p>Expand resources to gain a competitive advantage. </p></h4>
                             <br />
-                            <br />
-                            <h4><p>Minimise crunch and skills shortages when it matters most.</p></h4>
                         </div>
                     </div>
                 <div>
