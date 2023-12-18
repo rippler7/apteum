@@ -1,5 +1,5 @@
 import '../components/SectionFour.css'
-import IMAGES from '../Images'
+import Images from '../Images'
 
 
 function SectionFour(){
@@ -17,7 +17,7 @@ function SectionFour(){
                 <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-3">
                 
                     {
-                        IMAGES && IMAGES.map((item)=>
+                        Images && Images.map((item)=>
                         <div className="flex flex-col items-center p-4 border sm:p-6 rounded-xl" key={item.id}>
                         <img className="object-cover w-full rounded-xl aspect-square" src={item.photo} alt="" />
                             <h3 className="mt-4 text-2xl font-semibold capitalize">{item.name}</h3>

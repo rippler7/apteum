@@ -1,4 +1,4 @@
-const IMAGES = [
+const Images = [
     {
         id:1,
         photo: '/src/assets/headshots/IMG_6272.JPG',
@@ -19,4 +19,4 @@ const IMAGES = [
     }
 ]
 
-export default IMAGES
+export default Images
