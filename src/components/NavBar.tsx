@@ -1,5 +1,4 @@
 import apteumLogo from '../assets/Apteum_logo_WHITE.svg'
-import { Transition } from '@tailwindui/react'
 import { useState } from 'react'
 import '../components/Sidebar.css'
 
@@ -58,17 +57,6 @@ function NavBarContainer(){
                                 </ul>
                             </div>                       
                         </div>
-                    {/* {<Transition 
-                        show={showSidebar}
-                        enter="transition ease-out duration-100 lg:right-[35vw] md:right-100vw"
-                        enterFrom="lg:right-[35vw] md:right-100vw"
-                        enterTo="right-0"
-                        leave="transition ease-in duration-100 lg:right-0 md:right-0"
-                        leaveFrom="right-0"
-                        leaveTo="lg:right-[35vw] md:right-100vw"
-                    >
-                        
-                    </Transition>} */}
                 </div>
             </div>            
     
