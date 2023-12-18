@@ -1,5 +1,6 @@
 import { defineConfig, loadEnv } from 'vite'
 import { VitePluginRadar } from 'vite-plugin-radar'
+import reactRefresh from "eslint-plugin-react-refresh";
 
 import react from '@vitejs/plugin-react-swc'
 
@@ -26,7 +27,11 @@ export default defineConfig(({mode }) => {
             }
           }
         ]
-      })
-    ]
+      }),
+      {"react-refresh": reactRefresh}
+    ],
+    rules: {
+      "react-refresh/only-export-components": "warn"
+    }
   }
 })
