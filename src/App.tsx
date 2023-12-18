@@ -4,6 +4,7 @@ import SectionOne from './components/SectionOne'
 import SectionTwo from './components/SectionTwo'
 import SectionThree from './components/SectionThree'
 import SectionFour from './components/SectionFour'
+import SectionFive from './components/SectionFive'
 //import './components/TextAnimation.css'
 //import TextAnim from './components/TextAnimation'
 import Footer from './components/Footer'
@@ -24,6 +25,9 @@ function App() {
         </div>
         <div className='w-full lg:h-screen md:h-full sm:h-full mb-auto'>     
           <SectionFour />       
+        </div>
+        <div className='w-full lg:h-screen md:h-full sm:h-full mb-auto'>     
+          <SectionFive />       
         </div>
       </div>
       <div className='w-full'><Footer /></div>
