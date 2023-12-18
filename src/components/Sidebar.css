@@ -1,8 +1,8 @@
 div#mSidebar {
     background-color: #DFBEA6;
     top:0;
-    right: -40vw;
-    width: 40vw;
+    right: -35vw;
+    width: 35vw;
     padding:10px;
     position:fixed;
     height:100%; 
@@ -10,15 +10,13 @@ div#mSidebar {
     transition: right 0.5s;
 }
 
-div#hMenu:hover + div#mSidebar{
-    right:40px;
-    transition: right 0.5s;
+div#hMenu:hover + div#mSidebar, .hovered {
+    right:0px;
 } 
 
 div#mSidebar:hover {
     right: 0;
-    transition:right 0.5s;
-}
+    transition:right 0.5s;}
 
 
 
@@ -53,18 +51,6 @@ div#mSidebar:hover {
     color: white;
     font-size: 18px;
   }
-
-  .closeBtn:hover {
-    color:#fff;
-  }
-
-  .xBtnClose:hover{
-    fill:#FFF;
-  }
-
-  .mainMenuList li{
-    margin: 1.3em auto;
-  }
-  .mainMenuList li:hover a{
-    text-decoration:underline;
+  .menubar-content li:hover a{
+    text-decoration: underline;
   }

@@ -5,8 +5,9 @@ import SectionTwo from './components/SectionTwo'
 import SectionThree from './components/SectionThree'
 import SectionFour from './components/SectionFour'
 import SectionFive from './components/SectionFive'
-//import './components/TextAnimation.css'
-//import TextAnim from './components/TextAnimation'
+import SectionSix from './components/SectionSix'
+import SectionSeven from './components/SectionSeven'
+
 import Footer from './components/Footer'
 
 function App() {
@@ -28,6 +29,12 @@ function App() {
         </div>
         <div className='w-full lg:h-screen md:h-full sm:h-full mb-auto'>     
           <SectionFive />       
+        </div>
+        <div className='w-full lg:h-screen md:h-full sm:h-full mb-auto'>     
+          <SectionSix />       
+        </div>
+        <div className='w-full lg:h-screen md:h-full sm:h-full mb-auto'>     
+          <SectionSeven />       
         </div>
       </div>
       <div className='w-full'><Footer /></div>

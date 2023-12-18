@@ -30,6 +30,11 @@ function SectionThree(){
                                 <br />
                                 <br />
                                 <h5><p>Join a business that values people, fosters talent, provides training and offers career advancement. Access a range of professional benefits, including health insurance, and work reasonable hours for a fair wage.</p></h5>
+                                <br />
+                                <br />
+                                <br />
+                                <br />
+                                <button>Learn more</button>
                             </div>
                         </div>
                         <div className='px-10 flex flex-col justify-start items-center'>

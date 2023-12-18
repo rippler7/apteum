@@ -21,7 +21,8 @@
     "react-dom": "^18.2.0",
     "react-transition-group": "^4.4.5",
     "tailwindcss": "^3.3.6",
-    "typescript-require": "^0.3.0"
+    "typescript-require": "^0.3.0",
+    "vite-plugin-require": "^1.1.14"
   },
   "devDependencies": {
     "@types/node": "^20.10.4",
@@ -37,6 +38,7 @@
     "eslint-plugin-react-refresh": "^0.4.4",
     "typescript": "^5.2.2",
     "vite": "^5.0.0",
-    "vite-plugin-radar": "^0.9.2"
+    "vite-plugin-radar": "^0.9.2",
+    "vite-plugin-require-transform": "^1.0.21"
   }
 }
