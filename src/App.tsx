@@ -6,15 +6,6 @@ import Expertise from './pages/Expertise'
 import Footer from './components/Footer'
 import { Routes, Route, Link } from 'react-router-dom'
 
-// const router = createBrowserRouter(
-//   createRoutesFromElements(
-//     <Route path="/">
-//       <Route path="/" index element={<Home />} />
-//       <Route path='expertise' element={<Expertise />} />
-//     </Route>
-//   )
-// )
-
 function App() {
 
   return (
