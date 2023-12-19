@@ -1,7 +1,10 @@
+import { resolve } from 'path'
 import { defineConfig, loadEnv } from 'vite'
 import { VitePluginRadar } from 'vite-plugin-radar'
 
 import react from '@vitejs/plugin-react-swc'
+
+const outDir = resolve(__dirname, 'dist')
 
 // https://vitejs.dev/config/
 export default defineConfig(({mode }) => {
@@ -27,6 +30,10 @@ export default defineConfig(({mode }) => {
           }
         ]
       })
-    ]
+    ],
+    build:{
+      outDir,
+      emptyOutDir: true
+    }
   }
 })
