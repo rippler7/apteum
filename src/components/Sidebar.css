@@ -55,3 +55,8 @@ div#mSidebar:hover {
   .menubar-content li:hover a{
     text-decoration: underline;
   }
+
+  div#navigationBar{
+    position: absolute;
+    top:0;
+  }
