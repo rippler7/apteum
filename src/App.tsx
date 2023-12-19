@@ -12,8 +12,10 @@ import Footer from './components/Footer'
 
 function App() {
   return (
+    <>
+    <div className='w-full z-50'><NavBarContainer /></div>
     <div className='h-full w-full justify-between align-items items-center min-h-screen'>
-      <div className='w-full'><NavBarContainer /></div>
+      
       <div className='grid'>
         <div className='w-full lg:h-screen md:h-full sm:h-full mb-auto'>     
           <SectionOne />       
@@ -39,6 +41,7 @@ function App() {
       </div>
       <div className='w-full'><Footer /></div>
     </div>
+    </>
   )
 }
 

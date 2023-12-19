@@ -1,5 +1,4 @@
 import '../components/Sidebar.css'
-
 const Sidebar = () => {
     return(
         <>

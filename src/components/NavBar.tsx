@@ -2,10 +2,10 @@ import apteumLogo from '../assets/Apteum_logo_WHITE.svg'
 import { useState } from 'react'
 import '../components/Sidebar.css'
 
+
 function NavBarContainer(){
     const [showSidebar, setShowSidebar] = useState(false);
-    return(
-  
+    return(  
             <div id='navigationBar' className='h-15 fixed flex justify-between p-3 w-full'>
                 <div className='px-10'>
                     <a><img src={apteumLogo} width={120} alt=""  /></a>
@@ -55,11 +55,11 @@ function NavBarContainer(){
                                         <a><h3>Careers</h3></a>
                                     </li>
                                 </ul>
-                            </div>                       
+                            </div>   
+                                               
                         </div>
                 </div>
-            </div>            
-    
+            </div>           
     )
 }
 
