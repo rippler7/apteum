@@ -1,6 +1,6 @@
 function SectionFive(){
     return(
-        <section className="flex align-middle justify-between h-full">
+        <section className="flex align-middle justify-between py-8">
 			<div className="container mx-auto flex flex-col items-center px-4 text-center md:py-12 md:px-5 lg:px-16 justify-center">
 				<span className="highlight-container py-6"><span className="highlight"><h2 className="hlText text-6xl">What does an Apteum client look like?</h2></span></span>
 				<p className="px-8 mt-8 mb-12 text-lg">

@@ -1,7 +1,7 @@
 
 function SectionSix (){
     return(
-        <section id="secSixBody"  className="h-full flex bg-white align-middle justify-between text-center">
+        <section id="secSixBody"  className="flex relative bg-white align-middle justify-between text-centermax-w-screen-xl px-4 mx-auto md:flex-row sm:px-6 p-8">
   <div className="flex mx-auto my-auto max-w-screen-xl px-4 text-center lg:py-16 lg:px-6 align-middle">
       <figure className="max-w-screen-lg mx-auto">
           <svg className="h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg">

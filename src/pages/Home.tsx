@@ -14,19 +14,19 @@ function Home(){
         <div className='w-full lg:h-screen md:h-full sm:h-full mb-auto'>     
           <SectionOne />       
         </div>
-        <div className='w-full lg:h-screen md:h-full sm:h-full mb-auto'>     
+        <div className='w-full md:h-full sm:h-full mb-auto'>     
           <SectionTwo />       
         </div>
-        <div className='w-full lg:h-screen md:h-full sm:h-full mb-auto'>     
+        <div className='w-full md:h-full sm:h-full mb-auto'>     
           <SectionThree />       
         </div>
-        <div className='w-full lg:h-screen md:h-full sm:h-full mb-auto'>     
+        <div className='w-full md:h-full sm:h-full mb-auto'>     
           <SectionFour />       
         </div>
-        <div className='w-full lg:h-screen md:h-full sm:h-full mb-auto'>     
+        <div className='w-full md:h-full sm:h-full mb-auto'>     
           <SectionFive />       
         </div>
-        <div className='w-full lg:h-screen md:h-full sm:h-full mb-auto'>     
+        <div className='w-full md:h-full sm:h-full mb-auto'>     
           <SectionSix />       
         </div>
         <div className='w-full lg:h-screen md:h-full sm:h-full mb-auto'>     
