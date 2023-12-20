@@ -1,16 +1,8 @@
 import apteumLogo from '../assets/Apteum_logo_WHITE.svg'
 import '../components/Sidebar.css'
-import React, { useRef } from 'react'
 import { Routes, Route, Link } from 'react-router-dom'
 import Home from '../pages/Home'
 import Expertise from '../pages/Expertise'
-
-function ActionButton(){
-  const buttonRef = useRef(null);
-  function handleClick(){
-    console.log(buttonRef.current)
-  }
-}
 
 
 function NavBarContainer(){
