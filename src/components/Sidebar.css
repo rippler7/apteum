@@ -6,7 +6,7 @@ div#mSidebar {
     padding:10px;
     position:fixed;
     height:100%; 
-    z-index:1000;
+    z-index:100000;
     transition: right 0.5s;
 }
 
@@ -18,8 +18,9 @@ div#mSidebar:hover {
     right: 0;
     transition:right 0.5s;}
 
-
-
+div#navigationBar{
+  top:0;
+}
 .toggle-btn {
     background: none;
     border: none;
@@ -54,19 +55,4 @@ div#mSidebar:hover {
   }
   .menubar-content ul li:hover {
     text-decoration: underline;
-  }
-
-  div#navigationBar{
-    top:0;
-  }
-
-  @media only screen and (max-width: 800px) {
-    div#mSidebar {
-      width: 90vw;
-      right:-90vw;
-    }
-
-    .menubar-content ul{
-      padding-left:40px;
-    }
   }

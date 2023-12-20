@@ -5,14 +5,19 @@ import { Routes, Route, Link } from 'react-router-dom'
 import Home from '../pages/Home'
 import Expertise from '../pages/Expertise'
 
-function NavBarContainer(){
+function ActionButton(){
   const buttonRef = useRef(null);
   function handleClick(){
-    console.log(buttonRef.current);
+    console.log(buttonRef.current)
   }
+}
+
+
+function NavBarContainer(){
+
     return(  
             <>
-        <div id='navigationBar' className='h-15 fixed flex justify-between p-3 w-full top-0'>
+            <div id='navigationBar' className='h-15 fixed flex justify-between p-3 w-full top-0'>
         <div className='px-10'>
           <a><img src={apteumLogo} width={120} alt="" /></a>
         </div>
@@ -47,7 +52,7 @@ function NavBarContainer(){
                   <Link to="expertise"><h3>Expertise</h3></Link>
                 </li>
                 <li>
-                  <a onClick={handleClick} ref={buttonRef}><h3>Our Story</h3></a>
+                  <a><h3>Our Story</h3></a>
                 </li>
                 <li>
                   <a><h3>Our Experts</h3></a>
@@ -68,13 +73,15 @@ function NavBarContainer(){
           </div>
         </div>
       </div>
+      <div>
       <Routes>
         <Route path="/">
           <Route path="/" index element={<Home />} />
           <Route path='expertise' element={<Expertise />} />
         </Route>
       </Routes>
-            </>          
+      </div>
+    </>          
     )
 }
 
