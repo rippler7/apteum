@@ -17,7 +17,7 @@ function App() {
         </Route>
       </Routes>    
       <div className='w-full'><Navbar /></div>  
-      <div className='w-full'><Footer /></div>
+      <div className='w-full sm:relative md:absolute'><Footer /></div>
     </>
 
   )

@@ -2,9 +2,9 @@ import heroImgExp from '../assets/hero-expertise.jpg'
 function Expertise() {
     return (
         
-            <section className="relative h-screen flex items-center justify-center text-center text-white z-1">
+            <section className="relative md:h-screen sm:h-max flex items-center justify-center text-center text-white z-1">
                 <div className="img-docker absolute top-0 left-0 w-full h-full overflow-hidden">
-                    <img src={heroImgExp} className="w-full h-screen brightness-50 object-cover" />
+                    <img src={heroImgExp} className="w-full h-full brightness-50 object-cover" />
                 </div>
                 <div className="img-content relative py-10">
                     <h1 className="font-light text-6xl">What we manage<br /><br />What they manage</h1>
