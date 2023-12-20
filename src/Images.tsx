@@ -10,7 +10,7 @@ const Images = [
         id:2,
         photo: Dir+'/IMG_6270.JPG',
         name: 'Joma Malacay',
-        position:'Finanace and Admin Support'
+        position:'Finance and Admin Support'
     },
     {
         id:3,

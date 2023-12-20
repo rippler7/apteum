@@ -1,14 +1,18 @@
 import apteumLogo from '../assets/Apteum_logo_WHITE.svg'
 import '../components/Sidebar.css'
+import React, { useRef } from 'react'
 import { Routes, Route, Link } from 'react-router-dom'
 import Home from '../pages/Home'
 import Expertise from '../pages/Expertise'
 
 function NavBarContainer(){
-
+  const buttonRef = useRef(null);
+  function handleClick(){
+    console.log(buttonRef.current);
+  }
     return(  
             <>
-            <div id='navigationBar' className='h-15 fixed flex justify-between p-3 w-full top-0'>
+        <div id='navigationBar' className='h-15 fixed flex justify-between p-3 w-full top-0'>
         <div className='px-10'>
           <a><img src={apteumLogo} width={120} alt="" /></a>
         </div>
@@ -43,7 +47,7 @@ function NavBarContainer(){
                   <Link to="expertise"><h3>Expertise</h3></Link>
                 </li>
                 <li>
-                  <a><h3>Our Story</h3></a>
+                  <a onClick={handleClick} ref={buttonRef}><h3>Our Story</h3></a>
                 </li>
                 <li>
                   <a><h3>Our Experts</h3></a>

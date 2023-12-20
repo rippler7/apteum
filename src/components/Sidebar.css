@@ -52,11 +52,21 @@ div#mSidebar:hover {
     color: white;
     font-size: 18px;
   }
-  .menubar-content li:hover a{
+  .menubar-content ul li:hover {
     text-decoration: underline;
   }
 
   div#navigationBar{
-    position: absolute;
     top:0;
+  }
+
+  @media only screen and (max-width: 800px) {
+    div#mSidebar {
+      width: 90vw;
+      right:-90vw;
+    }
+
+    .menubar-content ul{
+      padding-left:40px;
+    }
   }
