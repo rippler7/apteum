@@ -8,6 +8,7 @@ div#mSidebar {
     height:100%; 
     z-index:100000;
     transition: right 0.5s;
+    padding-left:12px;
 }
 
 div#hMenu:hover + div#mSidebar, .hovered {
@@ -55,4 +56,16 @@ div#navigationBar{
   }
   .menubar-content ul li:hover {
     text-decoration: underline;
+  }
+
+  div#mSidebar ul li:hover{
+    text-decoration: underline;
+  }
+
+  @media screen and (max-width: 600px) {
+    div#mSidebar {
+      right: -85vw;
+      width: 85vw;
+      padding-left:18vw;
+    }
   }

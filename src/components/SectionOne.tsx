@@ -18,8 +18,7 @@ function SectionOne(){
                         <h4 className='px-1.5'>Apteum pairs you with professionals abroad to build bespoke staffing solutions</h4>
                     
                     <br />
-                <a className="button mb-2 inline-block bg-primary px-12 pt-4 pb-3.5 text-sm"
-                    data-te-ripple-init data-te-ripple-color="light" href="#!" role="button">Get started</a>
+                <a className="button mb-2 inline-block bg-primary px-12 pt-4 pb-3.5 text-sm" data-te-ripple-init data-te-ripple-color="light" href="#!" role="button">Get started</a>
                 </div>
             </div>
             </div>
