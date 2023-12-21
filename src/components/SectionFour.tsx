@@ -19,7 +19,7 @@ function SectionFour(){
                     {
                         Images && Images.map((item)=>
                         <div className="flex flex-col items-center p-4 border sm:p-6 rounded-xl" key={item.id}>
-                        <img className="object-cover w-full rounded-xl aspect-square" src={item.photo} alt="" />
+                        <img className="object-cover w-full rounded-xl aspect-square object-top" src={item.photo} alt="" />
                             <h3 className="mt-4 text-2xl font-semibold capitalize">{item.name}</h3>
     
                             <p className="mt-2 capitalize">{item.position}</p>
@@ -52,6 +52,8 @@ function SectionFour(){
                                     </svg>
                                 </a>
                             </div>
+
+                            
                         </div>
                         )
                     }

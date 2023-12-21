@@ -54,7 +54,7 @@ function NavBarContainer(){
                 <a><h3>FAQ</h3></a>
               </li>
               <li>
-                <a><h3>Careers</h3></a>
+                <a><h3>Contact</h3></a>
               </li>
             </ul>
 
