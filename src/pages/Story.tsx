@@ -1,6 +1,7 @@
 import heroImgStory from '../assets/OurStoryHero.jpg'
 import ButtonAvg from '../components/ButtonAvg'
 import arrowRight from '../assets/arrowRight.svg'
+import { Link } from 'react-router-dom'
 function Story() {
     return (
         <>
@@ -54,7 +55,7 @@ function Story() {
                     <p className="px-8 mt-8 mb-12">
                     <h2>Do you have a project you would like to discuss?</h2></p>
                     <br />
-                    <div className="w-fit m-auto text-center items-center justify-center mt-[3vw]"> <ButtonAvg label='Our Experts' iconRight={<div className='pl-2 items-center flex justify-center m-auto'><img className='rightBtnArrow' src={arrowRight} width={30} title="arrow right" alt="pointRight" /></div>} /></div>
+                    <Link to='../nopage'><div className="w-fit m-auto text-center items-center justify-center mt-[3vw]"> <ButtonAvg label='Our Experts' iconRight={<div className='pl-2 items-center flex justify-center m-auto'><img className='rightBtnArrow' src={arrowRight} width={30} title="arrow right" alt="pointRight" /></div>} /></div></Link>
                     <br />
                     <br />
                 </div>

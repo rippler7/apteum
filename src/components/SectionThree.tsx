@@ -1,9 +1,10 @@
 import './SectionThree.css';
 import ButtonAvg from './ButtonAvg';
 import arrowRIght from '../assets/arrowRight.svg'
+import { Link } from 'react-router-dom';
 function SectionThree(){
     return(
-        <div id="sec3" className='secThreeBody flex w-full justify-between items-center h-full py-10'>
+        <div id="sectionThree" className='secThreeBody flex w-full justify-between items-center h-full py-10'>
             
             <div className='grid justify-evenly h-full w-full items-center align-items'>
                     <div className='tagline w-full px-20'>
@@ -36,7 +37,7 @@ function SectionThree(){
                                 <br />
                                 <br />
                                 <br />
-                                <div className="w-fit m-auto text-center items-center justify-center mt-[3vw]"> <ButtonAvg label='Learn more' iconRight={<div className='pl-2 items-center flex justify-center m-auto'><img className='rightBtnArrow' src={arrowRIght} width={30} title="arrow right" alt="pointRight" /></div>} /></div>
+                                <Link to='../ourstory'><div className="w-fit m-auto text-center items-center justify-center mt-[3vw]"><ButtonAvg label='Learn more' iconRight={<div className='pl-2 items-center flex justify-center m-auto'><img className='rightBtnArrow' src={arrowRIght} width={30} title="arrow right" alt="pointRight" /></div>} /></div></Link>
                             </div>
                         </div>
                         <div className='px-10 flex flex-col justify-start items-center'>

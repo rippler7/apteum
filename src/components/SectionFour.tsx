@@ -4,7 +4,7 @@ import Images from '../Images'
 
 function SectionFour(){
     return(
-        <section className="secFourBody h-full">
+        <section id="sectionFour" className="secFourBody h-full">
             <div className="grid">
                 <div className="container px-6 justify-center mx-auto mb-10">
 

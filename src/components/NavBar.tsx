@@ -49,16 +49,16 @@ function NavBarContainer(){
               <Link to="ourstory"><h3>Our Story</h3></Link>
               </li>
               <li>
-                <a><h3>Our Experts</h3></a>
+              <Link to="nopage"><h3>Our Experts</h3></Link>
               </li>
               <li>
-                <a><h3>Careers</h3></a>
+              <Link to="nopage"><h3>Careers</h3></Link>
               </li>
               <li>
-                <a><h3>FAQ</h3></a>
+              <Link to="nopage"><h3>FAQ</h3></Link>
               </li>
               <li>
-                <a><h3>Contact</h3></a>
+              <Link to="nopage"><h3>Contact</h3></Link>
               </li>
             </ul>
 
