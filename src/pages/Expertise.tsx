@@ -90,9 +90,8 @@ function Expertise() {
                     </div>
                 </div>
             </div>
-            <section className="relative px-6 py-10 align-middle w-full mx-auto bg-white text-left">
+            <section className="relative px-6 pb-10 align-middle w-full mx-auto bg-white text-left">
                 <h2 className='m-auto w-10/12'>How it works</h2>
-                    <br />
                 <div className="grid grid-cols-2 w-10/12 m-auto gap-8 mt-8 md:grid-cols-2 px-10 xl:mt-16 sm:grid-cols-1 text-left justify-between">
                     <div>
                         <h4>Clients</h4>
