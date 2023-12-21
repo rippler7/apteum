@@ -1,7 +1,7 @@
 import './SectionTwo.css';
 function SectionTwo(){
     return(
-        <div id="sec2" className='secTwoBody flex w-full justify-between items-center h-full py-10'>
+        <div id="sec2" className='secTwoBody flex w-full justify-between items-center h-full py-20'>
             
             <div className='flex flex-col justify-evenly h-full w-full items-center align-items'>
                     <div className='tagline w-full px-20'>

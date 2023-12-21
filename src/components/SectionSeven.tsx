@@ -1,5 +1,6 @@
 import whirlArrow from '../assets/whirlArrow.svg'
 import ButtonAvg from './ButtonAvg'
+import arrowRight from '../assets/arrowRight.svg'
 function SectionSeven(){
     return(
         <section className="flex align-middle justify-between max-w-screen-xl px-4 mx-auto md:flex-row sm:px-6 p-8">
@@ -14,7 +15,7 @@ function SectionSeven(){
 				</p>
                 <br />
                 <br />
-                <ButtonAvg label='Get in touch' iconRight={<div className='pl-2'>icon</div>} />
+                <div className="w-fit m-auto text-center items-center justify-center mt-[3vw]"> <ButtonAvg label='Get in touch' iconRight={<div className='pl-2 items-center flex justify-center m-auto'><img className='rightBtnArrow' src={arrowRight} width={30} title="arrow right" alt="pointRight" /></div>} /></div>
 			</div>
 		</section>
     )

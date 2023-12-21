@@ -2,6 +2,8 @@ import heroImgExp from '../assets/hero-expertise.jpg'
 import heroImg2 from '../assets/expertise-pic2.jpg'
 import heroImg3 from '../assets/expertise-pic3.jpg'
 import heroImg4 from '../assets/expertise-pic4.jpg'
+import ButtonAvg from '../components/ButtonAvg'
+import arrowRight from '../assets/arrowRight.svg'
 function Expertise() {
     return (
         <>
@@ -94,8 +96,7 @@ function Expertise() {
                     <p className="px-8 mt-8 mb-12">
                     <h2>Do you have a project you would like to discuss?</h2></p>
                     <br />
-                    <br />
-                    <button>Get in touch</button>
+                    <div className="w-fit m-auto text-center items-center justify-center mt-[3vw]"> <ButtonAvg label='Get started' iconRight={<div className='pl-2 items-center flex justify-center m-auto'><img className='rightBtnArrow' src={arrowRight} width={30} title="arrow right" alt="pointRight" /></div>} /></div>
                     <br />
                     <br />
                 </div>
