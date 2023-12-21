@@ -1,4 +1,5 @@
 import apteumLogo from '../assets/Apteum_logo_WHITE.svg'
+import aLogo from '../assets/Apteum_logo_RGB.svg'
 import '../components/Sidebar.css'
 import { Link } from 'react-router-dom'
 
@@ -11,8 +12,11 @@ function NavBarContainer(){
       <div className='px-10'>
         <a><img src={apteumLogo} width={120} alt="" /></a>
       </div>
+      <div className='logoCenter items-center m-auto'>
+      <Link to="/"><img src={aLogo} width={155} className='p-0' /></Link>
+      </div>
       <div className='flex align-right w-15 px-3'>
-        <div id="hMenu" className={'hmbrgr w-100 align-right'}>
+        <div id="hMenu" className={'hmbrgr w-100 align-right m-auto'}>
           <br />
         </div>
         <div id='mSidebar' className='transition duration-100 grid w-full pt-10'>
