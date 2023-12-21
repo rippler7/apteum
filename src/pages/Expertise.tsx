@@ -90,6 +90,41 @@ function Expertise() {
                     </div>
                 </div>
             </div>
+            <section className="relative px-6 py-10 align-middle w-full mx-auto bg-white text-left">
+                <h2 className='m-auto w-10/12'>How it works</h2>
+                    <br />
+                <div className="grid grid-cols-2 w-10/12 m-auto gap-8 mt-8 md:grid-cols-2 px-10 xl:mt-16 sm:grid-cols-1 text-left justify-between">
+                    <div>
+                        <h4>Clients</h4>
+                        <br />
+                        <p>
+                            Our services are tailored for small-to-medium size businesses looking to grow the right way. Rather than provide a one-size-fits-all solution, we focus on developing relationships with like-minded clients who align with our values and share our enthusiasm for a more ethical approach to outsourcing.
+                        </p>
+                    </div>
+                    <div>
+                        <h4>Culture</h4>
+                        <br />
+                        <p>
+                        At Apteum, we cultivate a working environment grounded in kindness, compassion and understanding. Whether you're a client in Australia or abroad, or a member of our team in Cebu, we treat all collaborators with dignity and respect.
+                        </p>
+                    </div>
+                    <div>
+                        <h4>Workflow</h4>
+                        <br />
+                        <p>
+                        You'll have complete oversight of day-to-day operations. Our team members in Cebu City will report directly to you, ensuring your workflow is never staggered. Our Melbourne team will be on hand to assist with all changes, big and small.
+                        </p>
+                    </div>
+                    <div>
+                        <h4>Results</h4>
+                        <br />
+                        <p>
+                        Our services are underpinned by the most advanced technologies and methodologies available, and when it comes to problem solving our team members are warmly encouraged to innovate to deliver the best possible outcome.
+                        </p>
+                    </div>
+                    <br />
+                </div>
+            </section>
             <section className="flex h-max align-middle justify-between max-w-screen-xl px-4 mx-auto md:flex-row sm:px-6 p-8 pb-28">
                 <div className="container mx-auto flex flex-col items-center px-4 text-center md:py-6 md:px-5 lg:px-16 justify-center">
                     <br />
