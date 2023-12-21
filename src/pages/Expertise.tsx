@@ -7,7 +7,7 @@ function Expertise() {
                 <div className="img-docker absolute top-0 left-0 w-full h-full overflow-hidden">
                     <img src={heroImgExp} className="w-full h-full brightness-50 object-cover" />
                 </div>
-                <div className="img-content relative py-10">
+                <div className="img-content relative py-10 max-w-md md:max-w-6xl">
                     <h1 className="font-light text-6xl">What we manage<br /><br />What they manage</h1>
                     <p className='px-10'><h3 className="font-light text-3xl">Apteum offers a suite of services that can be tailored to meet the specific needs of your business. Whether it’s technical services, operational support, accounting and bookkeeping, or HR and recruitment, we’re here to help you grow.
 </h3></p>
@@ -29,7 +29,7 @@ function Expertise() {
                 Technology
             </h2>
             <br />
-            <p className="w-full mx-auto mt-3 text-lg">
+            <p className="mx-auto mt-3 text-lg">
             We offer exceptional customer service and onboarding, as well as administration and support, both inside and outside of Australian business hours. Proficient in industry-leading CRM tools, such as Salesforce, Hubspot and Monday, our staff can also prepare documentation, such as research, strategy and white papers.
             </p>
             
