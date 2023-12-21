@@ -13,7 +13,7 @@ function Expertise() {
                 </div>
                 <div className="img-content relative py-10 max-w-md md:max-w-6xl">
                     <h1 className="text-6xl">What we manage<br /><br />What they manage</h1>
-                    <p className='px-10'><h3 className="text-3xl">Apteum offers a suite of services that can be tailored to meet the specific needs of your business. Whether it’s technical services, operational support, accounting and bookkeeping, or HR and recruitment, we’re here to help you grow.
+                    <p className='px-10'><h3 className="text-3xl">Apteum offers a suite of services that can be tailored to meet the specific needs of your business. Whether it's technical services, operational support, accounting and bookkeeping, or HR and recruitment, we're here to help you grow.
                     </h3></p>
                 </div>
             </section>
@@ -94,28 +94,28 @@ function Expertise() {
                 <h2 className='m-auto w-10/12'>How it works</h2>
                 <div className="grid grid-cols-2 w-10/12 m-auto gap-8 mt-8 md:grid-cols-2 px-10 xl:mt-16 sm:grid-cols-1 text-left justify-between">
                     <div>
-                        <h4>Clients</h4>
+                    <span className='highlight-container'><span className='highlight'><h4>Clients</h4></span></span>
                         <br />
                         <p>
                             Our services are tailored for small-to-medium size businesses looking to grow the right way. Rather than provide a one-size-fits-all solution, we focus on developing relationships with like-minded clients who align with our values and share our enthusiasm for a more ethical approach to outsourcing.
                         </p>
                     </div>
                     <div>
-                        <h4>Culture</h4>
+                    <span className='highlight-container'><span className='highlight'><h4>Culture</h4></span></span>
                         <br />
                         <p>
                         At Apteum, we cultivate a working environment grounded in kindness, compassion and understanding. Whether you're a client in Australia or abroad, or a member of our team in Cebu, we treat all collaborators with dignity and respect.
                         </p>
                     </div>
                     <div>
-                        <h4>Workflow</h4>
+                    <span className='highlight-container'><span className='highlight'><h4>Workflow</h4></span></span>
                         <br />
                         <p>
                         You'll have complete oversight of day-to-day operations. Our team members in Cebu City will report directly to you, ensuring your workflow is never staggered. Our Melbourne team will be on hand to assist with all changes, big and small.
                         </p>
                     </div>
                     <div>
-                        <h4>Results</h4>
+                    <span className='highlight-container'><span className='highlight'><h4>Results</h4></span></span>
                         <br />
                         <p>
                         Our services are underpinned by the most advanced technologies and methodologies available, and when it comes to problem solving our team members are warmly encouraged to innovate to deliver the best possible outcome.

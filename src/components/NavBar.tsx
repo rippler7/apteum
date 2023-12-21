@@ -46,7 +46,7 @@ function NavBarContainer(){
                 <Link to="expertise"><h3>Expertise</h3></Link>
               </li>
               <li>
-                <a><h3>Our Story</h3></a>
+              <Link to="ourstory"><h3>Our Story</h3></Link>
               </li>
               <li>
                 <a><h3>Our Experts</h3></a>
