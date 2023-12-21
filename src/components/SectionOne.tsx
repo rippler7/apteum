@@ -2,7 +2,6 @@ import './SectionOne.css';
 import heroImg from '../assets/DSC09860.jpg'
 import ButtonAvg from './ButtonAvg';
 import arrowRIght from '../assets/arrowRight.svg'
-import { Link } from 'react-router-dom';
 function SectionOne() {
     return (
         <section className='secOneBody w-full h-full mb-8'>
