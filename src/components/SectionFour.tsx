@@ -4,16 +4,13 @@ import Images from '../Images'
 
 function SectionFour(){
     return(
-        <section id="sectionFour" className="secFourBody h-full">
+        <section className="secFourBody h-full">
             <div className="grid">
-                <div className="container px-6 justify-center mx-auto mb-10">
+                <div className="container px-6 pt-6 justify-center mx-auto">
 
-                    <h2 className="text-center mt-10">Our people are what makes Apteum a leader in the industry</h2>
-
-                </div>
+                    <h3 className="text-center mt-10">Our people are what makes Apteum a leader in the industry</h3> </div>
             </div>
-
-            <div className="container px-6 py-10 mx-auto">
+            <div className="container px-6 mx-auto">
                 <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-3">
                 
                     {
@@ -24,7 +21,7 @@ function SectionFour(){
     
                             <p className="mt-2 capitalize">{item.position}</p>
     
-                            <div className="flex mt-3 -mx-2">
+                            <div className="flex mt-3 -m x-2">
                                 <a href="#" className="mx-2 transition-colors duration-300" aria-label="Reddit">
                                     <svg className="w-6 h-6 fill-current" viewBox="0 0 24 24" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">

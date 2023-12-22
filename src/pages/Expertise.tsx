@@ -95,28 +95,28 @@ function Expertise() {
                 <h2 className='m-auto w-10/12'>How it works</h2>
                 <div className="grid grid-cols-2 w-10/12 m-auto gap-8 mt-8 md:grid-cols-2 px-10 xl:mt-16 sm:grid-cols-1 text-left justify-between">
                     <div>
-                    <span className='highlight-container'><span className='highlight'><h4>Clients</h4></span></span>
+                    <h4><mark>Clients</mark></h4>
                         <br />
                         <p>
                             Our services are tailored for small-to-medium size businesses looking to grow the right way. Rather than provide a one-size-fits-all solution, we focus on developing relationships with like-minded clients who align with our values and share our enthusiasm for a more ethical approach to outsourcing.
                         </p>
                     </div>
                     <div>
-                    <span className='highlight-container'><span className='highlight'><h4>Culture</h4></span></span>
+                    <h4><mark>Culture</mark></h4>
                         <br />
                         <p>
                         At Apteum, we cultivate a working environment grounded in kindness, compassion and understanding. Whether you're a client in Australia or abroad, or a member of our team in Cebu, we treat all collaborators with dignity and respect.
                         </p>
                     </div>
                     <div>
-                    <span className='highlight-container'><span className='highlight'><h4>Workflow</h4></span></span>
+                    <h4><mark>Workflow</mark></h4>
                         <br />
                         <p>
                         You'll have complete oversight of day-to-day operations. Our team members in Cebu City will report directly to you, ensuring your workflow is never staggered. Our Melbourne team will be on hand to assist with all changes, big and small.
                         </p>
                     </div>
                     <div>
-                    <span className='highlight-container'><span className='highlight'><h4>Results</h4></span></span>
+                    <h4><mark>Results</mark></h4>
                         <br />
                         <p>
                         Our services are underpinned by the most advanced technologies and methodologies available, and when it comes to problem solving our team members are warmly encouraged to innovate to deliver the best possible outcome.
