@@ -7,8 +7,13 @@
   src: local('LibreCaslonCondensed-Medium'), url('./fonts/LibreCaslonCondensed-Medium.otf'), format('otf');
 }
 
+@font-face {
+  font-family: 'FreightDispComp';
+  src: url('./fonts/freightdispcmp-w05-medium.otf'), format('otf');
+}
+
 :root {
-  font-family: 'LibreCaslonCondensed-Medium',serif;  
+  font-family: 'FreightDispComp',serif;  
   color-scheme: light dark;
   color: #002d2e;
   background-color: #edf4f3;
