@@ -3,13 +3,13 @@ const Images = [
     {
         id:1,
         photo: Dir+'/IMG_6272.JPG',
-        name: 'Dan Fabro',
+        name: 'Dan',
         position:'Operations Manager'
     },
     {
         id:2,
         photo: Dir+'/IMG_6270.JPG',
-        name: 'Joma Malacay',
+        name: 'Joma',
         position:'Finance and Admin Support'
     },
     {
