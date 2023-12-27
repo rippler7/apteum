@@ -48,16 +48,16 @@ function NavBarContainer(){
               <li>
               <Link to="ourstory"><h3>Our Story</h3></Link>
               </li>
-              <li>
+              <li className='hidden'>
               <Link to="nopage"><h3>Our Experts</h3></Link>
               </li>
-              <li>
+              <li className='hidden'>
               <Link to="nopage"><h3>Careers</h3></Link>
               </li>
-              <li>
+              <li className='hidden'>
               <Link to="nopage"><h3>FAQ</h3></Link>
               </li>
-              <li>
+              <li className='hidden'>
               <Link to="nopage"><h3>Contact</h3></Link>
               </li>
             </ul>
