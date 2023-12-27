@@ -20,11 +20,11 @@ function Story() {
             <section className='flex w-full justify-between items-center h-fit py-20 bg-white'>
             <div className='flex flex-col justify-evenly h-full w-10/12 mx-auto text-left align-items'>
                     <div className='tagline w-full px-10 text-2xl'>                        
-                        <p>Initially created to provide operational support for our growing businesses, we quickly realised we had a talent acquisition service that could benefit companies across Australia and the world. But rather than follow the traditional approach to outsourcing, we <span className='text-4xl'>wanted to build genuine and lasting relationships with the people who support</span> our business.</p>
+                        <p>Initially created to provide operational support for our growing businesses, we quickly realised we had a talent acquisition service that could benefit companies across Australia and the world. But rather than follow the traditional approach to outsourcing, we <mark>wanted to build genuine and lasting relationships with the people who support</mark> our business.</p>
                         <br />
-                        <p>In 2023, we established our own office in Cebu City, where we have <span className='text-4xl'>a team of 20+ wonderful people with a wide breadth of skill and specialisation</span>. Situated on Cebu Island, in South-Central Philippines, Cebu is a vibrant and evolving city. With a population of more than one million, and a median age of 25, this rapidly growing city plays a vital role in the Philippines' emerging economy.</p>
+                        <p>In 2023, we established our own office in Cebu City, where we have <mark>a team of 20+ wonderful people with a wide breadth of skill and specialisation</mark>. Situated on Cebu Island, in South-Central Philippines, Cebu is a vibrant and evolving city. With a population of more than one million, and a median age of 25, this rapidly growing city plays a vital role in the Philippines' emerging economy.</p>
                         <br />
-                        <p>Our office is based in the Cebu I.T. Park, a district focused on international business that services companies around the world. Due to the professional opportunities available, the area attracts talented people from across the country.  <span className='text-4xl'>We couldn't be more pleased to be here</span>. As our business continues to grow, we remain focused on developing relationships with like-minded clients who align with our values and share our enthusiasm for a more ethical approach to outsourcing.</p>
+                        <p>Our office is based in the Cebu I.T. Park, a district focused on international business that services companies around the world. Due to the professional opportunities available, the area attracts talented people from across the country.  <mark>We couldn't be more pleased to be here</mark>. As our business continues to grow, we remain focused on developing relationships with like-minded clients who align with our values and share our enthusiasm for a more ethical approach to outsourcing.</p>
                     </div>
             </div>
             </section>
@@ -39,7 +39,7 @@ function Story() {
             </p>
                     </blockquote>
                     <figcaption className="flex items-center justify-center mt-6 space-x-3">
-                        <img className="w-10 h-10 rounded-full" src="https://cdn.theorg.com/f79de598-080a-4eb5-8a5b-96bc2ddc0147_thumb.jpg" alt="profile picture" />
+                        <img className="w-10 h-10 rounded-full" src="https://cdn.theorg.com/f79de598-080a-4eb5-8a5b-96bc2ddc0147_thumb.jpg" alt="profile" />
                         <div className="flex items-center divide-x-2">
                             <div className="pr-3 font-medium">Alyeah Sankar</div>
                             <div className="pl-3 text-sm font-light">Chief Customer and Innovation Officer, Landchecker</div>
