@@ -1,5 +1,5 @@
 import '../components/SectionFour.css'
-import Images from '../Images'
+import Images from '../const/Images'
 
 
 function SectionFour(){
