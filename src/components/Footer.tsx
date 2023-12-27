@@ -11,22 +11,22 @@ function Footer (){
                 <div>
                 <div className='flex justify-items-end w-full items-center px-10 pt-3 text-right'>
                     <div className='flex w-full justify-end items-end'>
-                        <div className='px-2'>
-                            <a>Expertise</a>
+                    <div className='px-2'>
+                            <Link to="expertise"><a>Expertise</a></Link>
                         </div>
                         <div className='px-2'>
-                            <a>Our Story</a>
+                            <Link to="ourstory"><a>Our Story</a></Link>
                         </div>
-                        <div className='px-2'>
+                        <div className='px-2 hidden'>
                             <a>Our Experts</a>
                         </div>
-                        <div className='px-2'>
+                        <div className='px-2 hidden'>
                             <a>Careers</a>
                         </div>
-                        <div className='px-2'>
+                        <div className='px-2 hidden'>
                             <a>FAQ</a>
                         </div>
-                        <div className='px-2'>
+                        <div className='px-2 hidden'>
                             <a>Careers</a>
                         </div>
                         <div>
