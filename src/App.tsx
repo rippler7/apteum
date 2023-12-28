@@ -7,7 +7,11 @@ import Footer from "./components/Footer";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/NavBar";
 
-function App() {
+import useScrollToTop from "./hooks/useScrollToTop";
+
+const App = () => {
+  useScrollToTop();
+
   return (
     <>
       <Navbar />
@@ -15,10 +19,10 @@ function App() {
       <main className="pt-[80px]">
         <Routes>
           <Route path="/">
-            <Route path="/" index element={<Home />} />
+            <Route index element={<Home />} />
             <Route path="expertise" element={<Expertise />} />
             <Route path="ourstory" element={<Story />} />
-            <Route path="nopage" element={<NoPage />} />
+            <Route path="*" element={<NoPage />} />
           </Route>
         </Routes>
       </main>
@@ -28,6 +32,6 @@ function App() {
       </div>
     </>
   );
-}
+};
 
 export default App;
