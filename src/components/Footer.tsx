@@ -3,7 +3,6 @@ import lnIconW from '../assets/icons8-linkedin-100-white.svg'
 import { Link } from 'react-router-dom'
 function Footer() {
     return (
-
         <div id='footerBar' className='grid bottom-0 lg:fixed md:bottom-0 sm:bottom-0 grid-cols-1 lg:grid-cols-2 md:grid-cols-1 sm:grid-cols-1 xs:grid-cols-1 bottom-0 mb-auto w-full justify-between items-center lg:text-right align-middle'>
             <div className='items-right align-middle px-10 py-10 md:align-center'>
                 <Link to="/"><img src={ApteumW} height={50} width={130} alt="" className='items-center m-auto lg:ml-0' /></Link>
