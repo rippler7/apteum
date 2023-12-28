@@ -3,7 +3,6 @@ import lnIconW from '../assets/icons8-linkedin-100-white.svg'
 import { Link } from 'react-router-dom'
 function Footer() {
     return (
-
         <div id='footerBar' className='grid lg:fixed md:bottom-0 sm:bottom-0 lg:grid-cols-2 bottom-0 mb-auto w-full justify-between items-center text-right align-middle'>
             <div className='items-right align-middle px-10 py-10 md:align-center'>
                 <Link to="/"><img src={ApteumW} height={50} width={130} alt="" className='items-center' /></Link>
@@ -30,7 +29,7 @@ function Footer() {
                             <a>Careers</a>
                         </div>
                         <div>
-                            <a><img src={lnIconW} width={25} height={25} /></a>
+                            <a href='https://www.linkedin.com/company/apteumcorp/about/' target='_blank'><img src={lnIconW} width={25} height={25} /></a>
                         </div>
                     </div>
                 </div>
@@ -39,7 +38,6 @@ function Footer() {
                 </div>
             </div>
         </div>
-
     )
 }
 
