@@ -8,26 +8,26 @@ function Footer() {
                 <Link to="/"><img src={ApteumW} height={50} width={130} alt="" className='items-center m-auto lg:ml-0' /></Link>
             </div>
             <div>
-                <div className='grid justify-items-end w-full items-center px-10 pt-3 sm:text-center lg:text-right'>
-                    <div className='lg:grid w-full justify-end sm:items-center md:items-center lg:items-right grid-cols-1 lg:grid-cols-7 md:grid-cols-1'>
+                <div className='grid justify-items-end w-full lg:w-30 items-center px-10 pt-3 sm:text-center lg:text-right'>
+                    <div className='lg:grid w-full justify-end sm:items-center md:items-center lg:items-right grid-cols-1 lg:grid-cols-3 md:grid-cols-1'>
                         <div className='px-2 sm:py-3 sm:text-center'>
                             <Link to="expertise"><a>Expertise</a></Link>
                         </div>
                         <div className='px-2 sm:py-3 sm:text-center'>
                             <Link to="ourstory"><a>Our Story</a></Link>
                         </div>
-                        <div className='px-2 sm:py-3 sm:text-center'>
+                        {/* <div className='px-2 sm:py-3 sm:text-center hidden'>
                             <a>Our Experts</a>
                         </div>
-                        <div className='px-2 sm:py-3 sm:text-center'>
+                        <div className='px-2 sm:py-3 sm:text-center hidden'>
                             <a>Careers</a>
                         </div>
-                        <div className='px-2 sm:py-3 sm:text-center'>
+                        <div className='px-2 sm:py-3 sm:text-center hidden'>
                             <a>FAQ</a>
                         </div>
-                        <div className='px-2 sm:py-3 sm:text-center'>
+                        <div className='px-2 sm:py-3 sm:text-center hidden'>
                             <a>Careers</a>
-                        </div>
+                        </div> */}
                         <div className='px-2 text-center'>
                             <a><img src={lnIconW} width={25} height={25} className='m-auto md:m-auto lg:mr-0' /></a>
                         </div>
