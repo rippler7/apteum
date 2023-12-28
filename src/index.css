@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @font-face {
-  font-family:'LibreCaslonCondensed-Medium';
+  font-family: 'LibreCaslonCondensed-Medium';
   src: local('LibreCaslonCondensed-Medium'), url('./fonts/LibreCaslonCondensed-Medium.otf'), format('otf');
 }
 
@@ -13,30 +13,40 @@
 }
 
 :root {
-  font-family: 'FreightDispComp',serif;  
+  font-family: 'FreightDispComp', serif;
   color-scheme: light dark;
   color: #002d2e;
   background-color: #edf4f3;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size:20px;
+  font-size: 20px;
 }
 
-html{
-  width:100%;
-  margin:0;
-  padding:0;
+html {
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
-a {
+
+/*
+ * should revisit usage of `a`
+ * let's not globally declare styling of an element,
+ * this will greatly affect the overall styling of
+ * the app, instead just use classes intended for the
+ * element styling
+ */
+/* https://apteum.atlassian.net/browse/WEB-6 */
+/* a {
   font-weight: normal;
   color: #213547;
   text-decoration: inherit;
-  cursor:pointer;
-}
-a:hover {
+  cursor: pointer;
+} */
+
+/* a:hover {
   color: #002d2e;
-}
+} */
 
 body {
   margin: 0;
@@ -51,20 +61,24 @@ h1 {
   line-height: auto !important;
 }
 
-button, .button {
+button,
+.button {
   border: none;
   padding: 0.8em 1.6em;
   font-weight: 100;
   font-family: inherit;
   cursor: pointer;
-  background-color: #dfbea6; /* Peach */
+  background-color: #dfbea6;
+  /* Peach */
   color: #002d2e;
-  font-size:1.5em;
+  font-size: 1.5em;
   text-align: center;
   text-decoration: none;
   transition: background-color 0.30s;
 }
-button:hover, .button:hover {
+
+button:hover,
+.button:hover {
   background-color: #002d2e;
   color: #FFF;
 }
@@ -79,20 +93,20 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-h1{
-  padding:1em;
+h1 {
+  padding: 1em;
   font-size: 100px;
 }
 
-h2{
-  font-size:72px;
+h2 {
+  font-size: 72px;
 }
 
-h3{
+h3 {
   font-size: 40px;
 }
 
-h4{
+h4 {
   font-size: 28px;
 }
 
@@ -101,21 +115,25 @@ h4{
     color: #213547;
     background-color: #edf4f3;
   }
-  a:hover {
+
+  /* a:hover {
     color: #dfbea6;
-  }
+  } */
+
   button {
     background-color: #edf4f3;
   }
 }
 
-.highlight-container, .highlight {
+.highlight-container,
+.highlight {
   position: relative;
 }
 
 .highlight-container {
   display: inline-block;
 }
+
 .highlight-container:before {
   content: " ";
   display: block;
@@ -130,18 +148,18 @@ h4{
   left: -1px;
   border-radius: 20% 25% 20% 24%;
   padding: 5px 3px 3px 5px;
-  z-index:0;
+  z-index: 0;
 }
 
 
 mark {
   -webkit-animation: 1.5s highlight 1.5s 1 normal forwards;
-          animation: 1.5s highlight 1.5s 1 normal forwards;
+  animation: 1.5s highlight 1.5s 1 normal forwards;
   background-color: none;
   background: linear-gradient(90deg, #e5c996 50%, rgba(255, 255, 255, 0) 50%);
   background-size: 200% 100%;
   background-position: 100% 0;
-  padding:0.2em;
+  padding: 0.2em;
 }
 
 @-webkit-keyframes highlight {

@@ -9,9 +9,11 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #213547);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #FFFFFF);
 }
@@ -20,6 +22,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -39,23 +42,38 @@
   color: #888;
 }
 
-#navigationBar{
- background-color: #FFFFFF; 
+#navigationBar {
+  background-color: #FFFFFF;
 }
 
-#footerBar, #footerBar a {
-  color:#FFF;
+#footerBar,
+#footerBar a {
+  color: #FFF;
   background-color: #002d2e;
 }
 
 .hmbrgr {
   background: url('./assets/Hamburger.svg') center no-repeat;
-  background-size:contain;
-  width:100px;
-  padding:0px;
-  cursor:pointer;
+  background-size: contain;
+  width: 100px;
+  padding: 0px;
+  cursor: pointer;
 }
 
 .hmbrgr:hover {
   background-image: url('./assets/Hamburger-peach.svg')
+}
+
+.sidebar-container {
+  background-color: #DFBEA6;
+}
+
+.sidebar-active {
+  right: 0;
+  transition: right 0.25s;
+}
+
+.sidebar-hidden {
+  right: -490px;
+  transition: right 0.25s;
 }
