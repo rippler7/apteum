@@ -26,8 +26,7 @@ const App = () => {
           </Route>
         </Routes>
       </main>
-
-      <div className="w-full sm:relative md:absolute">
+      <div className="w-full relative sm:relative md:absolute lg:absolute">
         <Footer />
       </div>
     </>
