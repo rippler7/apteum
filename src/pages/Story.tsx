@@ -9,9 +9,9 @@ function Story() {
                 <div className="img-docker absolute top-0 left-0 w-full h-full overflow-hidden">
                     <img src={heroImgStory} className="w-full h-full brightness-50 object-cover object-left-bottom" />
                 </div>
-                <div className='w-10/12 mx-auto'>
-                <div className="img-content relative py-10 max-w-md md:max-w-5xl">
-                    <h1>A new way of working</h1>
+                <div className='w-full md:w-10/12 mx-auto'>
+                <div className="img-content relative py-5 w-full max-w-sm md:max-w-5xl">
+                    <h2 className='p-10'>A new way of working</h2>
                     <p className='px-10'><h3 className="text-3xl">Remote hiring is a practical alternative and long-term solution to business growth and development—but it should be done the right way. At Apteum, that means treating all clients, collaborators, contractors and staff with the utmost respect.
                     </h3></p>
                 </div>
@@ -49,7 +49,7 @@ function Story() {
             </div>
             </section>
             
-            <section className="flex h-max align-middle justify-between w-full px-4 mx-auto md:flex-row sm:px-6 p-8 pb-28 bg-white">
+            <section className="hidden flex h-max align-middle justify-between w-full px-4 mx-auto md:flex-row sm:px-6 p-8 pb-28 bg-white">
                 <div className="container mx-auto flex flex-col items-center px-4 text-center md:py-6 md:px-5 lg:px-16 justify-center">
                     <br />
                     <p className="px-8 mt-8 mb-12">
