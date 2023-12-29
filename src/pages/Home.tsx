@@ -10,7 +10,7 @@ function Home(){
     return(
         <div className='h-full w-full justify-between align-items items-center min-h-screen'>
       
-      <div className='grid'>
+      <div>
         <div className='w-full lg:h-screen md:h-full sm:h-full mb-auto'>     
           <SectionOne />       
         </div>

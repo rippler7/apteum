@@ -4,7 +4,7 @@ function SectionTwo(){
         <div id="sec2" className='secTwoBody flex w-full justify-between items-center h-full py-20'>
             
             <div className='flex flex-col justify-evenly h-full w-10/12 mx-auto items-center align-items'>
-                    <div className='tagline w-full px-20'>
+                    <div className='tagline w-full px-5 lg:px-20'>
                         
                         <h3>Working from Melbourne, Australia and Cebu City, the Philippines, Apteum is a growing team of professionals and specialists with a passion for business, technology and problem solving.</h3>
                         
