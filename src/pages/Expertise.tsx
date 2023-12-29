@@ -125,7 +125,7 @@ function Expertise() {
                     <br />
                 </div>
             </section>
-            <section className="flex h-max align-middle justify-between max-w-screen-xl px-4 mx-auto md:flex-row sm:px-6 p-8 pb-28">
+            <section className="hidden flex h-max align-middle justify-between max-w-screen-xl px-4 mx-auto md:flex-row sm:px-6 p-8 pb-28">
                 <div className="container mx-auto flex flex-col items-center px-4 text-center md:py-6 md:px-5 lg:px-16 justify-center">
                     <br />
                     <p className="px-8 mt-8 mb-12">
