@@ -8,8 +8,8 @@ function Footer() {
                 <Link to="/"><img src={ApteumW} height={50} width={130} alt="" className='items-center m-auto lg:ml-0' /></Link>
             </div>
             <div>
-                <div className='grid justify-items-end w-full lg:w-30 items-center px-10 pt-3 sm:text-center lg:text-right'>
-                    <div className='lg:grid w-full justify-end sm:items-center md:items-center lg:items-right grid-cols-1 lg:grid-cols-3 md:grid-cols-1'>
+                <div className='grid justify-items-center lg:justify-items-end w-full items-center px-10 pt-3 sm:text-center lg:text-right'>
+                    <div className='lg:grid w-full lg:w-[30vw] justify-items-center lg:justify-items-end sm:items-center md:items-center lg:items-right grid-cols-1 lg:grid-cols-3 md:grid-cols-1'>
                         <div className='px-2 sm:py-3 sm:text-center'>
                             <Link to="expertise"><a>Expertise</a></Link>
                         </div>
