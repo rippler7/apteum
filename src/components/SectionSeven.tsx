@@ -13,8 +13,6 @@ function SectionSeven(){
 				<p className="px-8 mt-8 mb-12 text-2xl font-medium">
 					If you need talented people, we can help.
 				</p>
-                <br />
-                <br />
                 <div className="hidden w-fit m-auto text-center items-center justify-center mt-[3vw]"> <ButtonAvg label='Get in touch' iconRight={<div className='pl-2 items-center flex justify-center m-auto'><img className='rightBtnArrow' src={arrowRight} width={30} title="arrow right" alt="pointRight" /></div>} /></div>
 			</div>
 		</section>

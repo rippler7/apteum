@@ -16,7 +16,7 @@ const Images = [
         id:3,
         photo: Dir+'/IMG_6252.JPG',
         name: 'Francis',
-        position:'Software Engineer'
+        position:'Front End Engineer'
     }
 ]
 

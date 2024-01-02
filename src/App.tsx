@@ -29,6 +29,14 @@ const App = () => {
       <div className="w-full relative sm:relative md:absolute lg:absolute">
         <Footer />
       </div>
+      <svg xmlns="http://www.w3.org/2000/svg" version="1.1" className="svg-filters hidden" >
+        <defs>
+          <filter id="marker-shape">
+            <feTurbulence type="fractalNoise" baseFrequency="0.001 0.07" numOctaves="1" result="warp" />
+            <feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="50" in="SourceGraphic" in2="warp" />
+          </filter>
+        </defs>
+      </svg>
     </>
   );
 };
