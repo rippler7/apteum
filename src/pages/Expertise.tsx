@@ -91,7 +91,7 @@ function Expertise() {
                     </div>
                 </div>
             </div>
-            <section className="relative px-6 pb-10 align-middle w-full mx-auto  text-left">
+            <section className="relative px-6 pb-10 align-middle w-full mx-auto  text-left mb-10 lg:mb-20">
                 <h2 className='m-auto w-10/12'>How it works</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 w-10/12 m-auto gap-2 md:gap-8 mt-3 md:mt-8 px-4 md:px-10 xl:mt-16 sm:grid-cols-1 text-left justify-between">
                     <div className='mb-10 md:mb-5'>
@@ -125,7 +125,7 @@ function Expertise() {
                     <br />
                 </div>
             </section>
-            <section className="hidden flex h-max align-middle justify-between max-w-screen-xl px-4 mx-auto md:flex-row sm:px-6 p-8 pb-28">
+            <section className="hidden flex h-max align-middle justify-between max-w-screen-xl px-4 mx-auto md:flex-row sm:px-6 p-8 pb-28 mb-20">
                 <div className="container mx-auto flex flex-col items-center px-4 text-center md:py-6 md:px-5 lg:px-16 justify-center">
                     <br />
                     <p className="px-8 mt-8 mb-12">

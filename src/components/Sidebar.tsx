@@ -46,8 +46,8 @@ const Sidebar = ({ showSideBar, toggleMenu }: SidebarProps) => {
               <h3>Careers</h3>
             </Link>
           </li>
-          <li className="hidden">
-            <Link to="nopage">
+          <li className="">
+            <Link to="faqs">
               <h3>FAQ</h3>
             </Link>
           </li>

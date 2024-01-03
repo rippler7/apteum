@@ -3,7 +3,7 @@ import ButtonAvg from './ButtonAvg'
 import arrowRight from '../assets/arrowRight.svg'
 function SectionSeven(){
     return(
-        <section className="flex align-middle justify-between max-w-screen-xl px-4 mx-auto md:flex-row sm:px-6 p-8">
+        <section className="flex align-middle justify-between max-w-screen-xl px-4 mx-auto md:flex-row sm:px-6 pb-8">
 			<div className="container mx-auto flex flex-col items-center px-4 text-center md:py-6 md:px-5 lg:px-16 justify-center">
             <img src={whirlArrow} width={145} />
             <br />
