@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 function Expertise() {
     return (
         <>
-            <section className="relative w-full md:h-screen sm:h-max flex items-center justify-center text-center text-white z-1">
+            <section className="relative w-full mt-10 md:h-screen sm:h-max flex items-center justify-center text-center text-white z-1">
                 <div className="img-docker absolute top-0 left-0 w-full h-full overflow-hidden">
                     <img src={heroImgExp} className="w-full h-full brightness-50 object-cover" />
                 </div>
@@ -93,30 +93,30 @@ function Expertise() {
             </div>
             <section className="relative px-6 pb-10 align-middle w-full mx-auto  text-left">
                 <h2 className='m-auto w-10/12'>How it works</h2>
-                <div className="grid grid-cols-2 w-10/12 m-auto gap-8 mt-8 md:grid-cols-2 px-10 xl:mt-16 sm:grid-cols-1 text-left justify-between">
-                    <div>
-                        <h4><span className="realistic-marker-highlight">Clients</span></h4>
+                <div className="grid grid-cols-1 md:grid-cols-2 w-10/12 m-auto gap-2 md:gap-8 mt-3 md:mt-8 px-4 md:px-10 xl:mt-16 sm:grid-cols-1 text-left justify-between">
+                    <div className='mb-10 md:mb-5'>
+                        <h3><span className="realistic-marker-highlight">Clients</span></h3>
                         <br />
                         <p>
                             Our services are tailored for small-to-medium size businesses looking to grow the right way. Rather than provide a one-size-fits-all solution, we focus on developing relationships with like-minded clients who align with our values and share our enthusiasm for a more ethical approach to outsourcing.
                         </p>
                     </div>
-                    <div>
-                        <h4><span className="realistic-marker-highlight">Culture</span></h4>
+                    <div className='mb-10 md:mb-5'>
+                        <h3><span className="realistic-marker-highlight">Culture</span></h3>
                         <br />
                         <p>
                             At Apteum, we cultivate a working environment grounded in kindness, compassion and understanding. Whether you're a client in Australia or abroad, or a member of our team in Cebu, we treat all collaborators with dignity and respect.
                         </p>
                     </div>
-                    <div>
-                        <h4><span className="realistic-marker-highlight">Workflow</span></h4>
+                    <div className='mb-10 md:mb-5'>
+                        <h3><span className="realistic-marker-highlight">Workflow</span></h3>
                         <br />
                         <p>
                             You'll have complete oversight of day-to-day operations. Our team members in Cebu City will report directly to you, ensuring your workflow is never staggered. Our Melbourne team will be on hand to assist with all changes, big and small.
                         </p>
                     </div>
-                    <div>
-                        <h4><span className="realistic-marker-highlight">Results</span></h4>
+                    <div className='mb-10 md:mb-5'>
+                        <h3><span className="realistic-marker-highlight">Results</span></h3>
                         <br />
                         <p>
                             Our services are underpinned by the most advanced technologies and methodologies available, and when it comes to problem solving our team members are warmly encouraged to innovate to deliver the best possible outcome.
