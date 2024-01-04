@@ -2,7 +2,7 @@ const qna = [
     {
         id:1,
         question:"1. Why Cebu?",
-        ans:"Thanks for partnering with us, we look forward to working together. \n We try to take an ethical approach to remote hiring and be transparent about our actions. The following FAQs explain where our staff work and how we provide for them."
+        ans:"Cebu City is a thriving part of the Philippines. A vibrant university town with a young and energetic population, it's a hub for culture, food, entertainment and commerce. Cebu I.T. Park, where our office is located, is a junction for international business and technology."
     },
     {
         id:2,
