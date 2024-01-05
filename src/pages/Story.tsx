@@ -49,13 +49,13 @@ function Story() {
             </div>
             </section>
             
-            <section className="hidden flex h-max align-middle justify-between w-full px-4 mx-auto md:flex-row sm:px-6 p-8 pb-28">
+            <section className="flex h-max align-middle justify-between w-full px-4 mx-auto md:flex-row sm:px-6 p-8 pb-28">
                 <div className="container mx-auto flex flex-col items-center px-4 text-center md:py-6 md:px-5 lg:px-16 justify-center">
                     <br />
                     
                     <h2 className="px-8 mt-8 mb-12">Do you have a project you would like to discuss?</h2>
                     <br />
-                    <Link to='../nopage'><div className="w-fit m-auto text-center items-center justify-center mt-[3vw]"> <ButtonAvg label='Our Experts' iconRight={<div className='pl-2 items-center flex justify-center m-auto'><img className='rightBtnArrow' src={arrowRight} width={30} title="arrow right" alt="pointRight" /></div>} /></div></Link>
+                    <Link to='../experts'><div className="w-fit m-auto text-center items-center justify-center mt-[3vw]"> <ButtonAvg label='Our Experts' iconRight={<div className='pl-2 items-center flex justify-center m-auto'><img className='rightBtnArrow' src={arrowRight} width={30} title="arrow right" alt="pointRight" /></div>} /></div></Link>
                     <br />
                     <br />
                 </div>

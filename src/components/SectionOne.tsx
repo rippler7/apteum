@@ -5,9 +5,9 @@ import arrowRIght from '../assets/arrowRight.svg'
 function SectionOne() {
     return (
         <section className='secOneBody w-full h-full mb-8'>
-            <div className="h-full w-full px-6 text-center md:px-12 lg:text-left">
-                <div className="w-100 h-full mx-auto sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl">
-                    <div className="h-full grid items-center gap-12 lg:grid-cols-2 justify-normal">
+            <div className="h-full w-full px-6 text-center md:px-12 lg:text-left mx-auto">
+                <div className="h-full mx-auto sm:max-w-2xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl">
+                    <div className="h-full grid grid-cols-1 items-center gap-12 lg:grid-cols-2 justify-normal">
                         <div className="h-full w-full">
                             <img src={heroImg} className="w-full h-full object-cover" alt="" />
                         </div>

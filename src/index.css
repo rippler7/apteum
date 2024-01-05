@@ -156,3 +156,12 @@ h5, p{
   padding: 3px 3px -3px 3px;
   z-index: 0;
 }
+
+.topSectionExperts{
+  background: url('./assets/worldMap.png') bottom right no-repeat;
+}
+
+div#mainOurExp div div{
+  width: auto;
+  height: 85%;
+}

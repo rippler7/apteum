@@ -24,34 +24,34 @@ const Sidebar = ({ showSideBar, toggleMenu }: SidebarProps) => {
         />
       </div>
 
-      <div className="px-[160px] pt-[86px]">
+      <div className="px-[130px] pt-[86px]">
         <ul className="text-left">
           <li>
-            <Link to="expertise" className=" hover:opacity-70">
+            <Link to="expertise" onClick={toggleMenu} className=" hover:opacity-70">
               <h3>Expertise</h3>
             </Link>
           </li>
           <li>
-            <Link to="ourstory" className=" hover:opacity-70">
+            <Link to="ourstory" onClick={toggleMenu} className="hover:opacity-70">
               <h3>Our Story</h3>
             </Link>
           </li>
-          <li className="hidden">
-            <Link to="nopage">
+          <li className="hover:opacity-70">
+            <Link to="experts" onClick={toggleMenu}>
               <h3>Our Experts</h3>
             </Link>
           </li>
-          <li className="hidden">
+          <li className="hidden" onClick={toggleMenu}>
             <Link to="nopage">
               <h3>Careers</h3>
             </Link>
           </li>
-          <li className="">
+          <li className="hover:opacity-70" onClick={toggleMenu}>
             <Link to="faqs">
               <h3>FAQ</h3>
             </Link>
           </li>
-          <li className="hidden">
+          <li className="hidden" onClick={toggleMenu}>
             <Link to="nopage">
               <h3>Contact</h3>
             </Link>

@@ -9,12 +9,15 @@ function Footer() {
             </div>
             <div>
                 <div className='grid justify-items-center lg:justify-items-end w-full items-center px-10 pt-3 sm:text-center lg:text-right'>
-                    <div className='lg:grid w-full lg:w-[30vw] justify-items-center lg:justify-items-end sm:items-center md:items-center lg:items-right grid-cols-1 lg:grid-cols-4 md:grid-cols-1'>
+                    <div className='lg:grid justify-items-center lg:justify-items-end sm:items-center md:items-center lg:items-right grid-cols-1 lg:grid-cols-5 md:grid-cols-1'>
                         <div className='px-2 sm:py-3 sm:text-center'>
                             <Link to="expertise">Expertise</Link>
                         </div>
                         <div className='px-2 sm:py-3 sm:text-center'>
                             <Link to="ourstory">Our Story</Link>
+                        </div>
+                        <div className='px-2 sm:py-3 sm:text-center'>
+                            <Link to="experts">Our Experts</Link>
                         </div>
                         <div className='px-2 sm:py-3 sm:text-center'>
                             <Link to="faqs">FAQ</Link>

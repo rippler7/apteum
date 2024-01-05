@@ -8,7 +8,7 @@ import SectionSeven from '../components/SectionSeven'
 
 function Home(){
     return(
-        <div className='h-full justify-between align-items items-center min-h-screen pb-20'>
+        <div className='h-full w-screen justify-between align-items items-center min-h-screen pb-20'>
       
       <div>
         <div className='w-full lg:h-screen md:h-full sm:h-full mb-auto'>     

@@ -17,18 +17,18 @@ function Faq() {
                     We try to take an ethical approach to remote hiring and be transparent about our actions. The following FAQs explain where our staff work and how we provide for them.
                 </p>
                 {
-                    qna && qna.map((qa) => <>
-                        <Disclosure as="div">
+                    qna && qna.map((qa) => 
+                        <Disclosure as="div" key={qa.id}>
                             {({ open }) => (
-                                <>
+                                <div>
                                     <div className="w-full px-4 lg:px-10 py-5" key='{qa.id}'>
                                         <div className="mx-auto w-full border-b-2 border-[#002d2e]">
                                             <Disclosure.Button className="flex items-center w-full justify-between px-4 py-2 text-left text-[#002d2e] hover:bg-[#002d2e]-200 focus:outline-none focus-visible:ring bg-[#edf4f3] focus-visible:ring-500/75">
                                                 <h5><span>{qa.question}</span></h5>
-                                                {open ? <svg data-slot="icon" className='h-5 w-5' fill="none" stroke-width="4" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14"></path>
-                                                </svg> : <svg data-slot="icon" fill="none" stroke-width="4" className='h-5 w-5' stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15"></path>
+                                                {open ? <svg data-slot="icon" className='h-5 w-5' fill="none" strokeWidth="4" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14"></path>
+                                                </svg> : <svg data-slot="icon" fill="none" strokeWidth="4" className='h-5 w-5' stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.5v15m7.5-7.5h-15"></path>
                                                 </svg>}
                                             </Disclosure.Button>
                                             <Transition
@@ -45,17 +45,17 @@ function Faq() {
                                             </Transition>
                                         </div>
                                     </div>
-                                </>
+                                </div>
                             )}
                         </Disclosure>
-                    </>)
+                    )
                 }
             </section>
             <section className="flex hidden align-middle justify-between w-full px-4 mx-auto md:flex-row sm:px-6 p-8 pb-28 bg-white">
                 <div className="container mx-auto flex flex-col items-center px-4 text-center md:py-6 md:px-5 lg:px-16 justify-center">
                     <br />
-                    <p className="px-8 mt-8 mb-12">
-                        <h2>Can't find what you are looking for?</h2></p>
+                    <h2 className="px-8 mt-8 mb-12">
+                        Can't find what you are looking for?</h2>
                     <br />
                     <Link to='/expertise'><div className="w-fit m-auto text-center items-center justify-center mt-[3vw]"> <ButtonAvg label='Contact Us' iconRight={<div className='pl-2 items-center flex justify-center m-auto'><img className='rightBtnArrow' src={arrowRight} width={30} title="arrow right" alt="pointRight" /></div>} /></div></Link>
                     <br />
