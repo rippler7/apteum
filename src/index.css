@@ -62,7 +62,6 @@ h1 {
   line-height: auto !important;
 }
 
-button,
 .button {
   border: none;
   padding: 0.8em 1.6em;
@@ -78,19 +77,18 @@ button,
   transition: background-color 0.30s;
 }
 
-button:hover,
 .button:hover {
   background-color: #002d2e;
   color: #FFF;
 }
 
-button:hover div img.rightBtnArrow {
+.button:hover div img.rightBtnArrow {
   filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(90deg) brightness(100%) contrast(100%)
 }
 
 
-button:focus,
-button:focus-visible {
+.button:focus,
+.button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
@@ -126,7 +124,7 @@ h5, p{
     color: #dfbea6;
   } */
 
-  button {
+  .button {
     background-color: #edf4f3;
   }
 }
@@ -164,4 +162,50 @@ h5, p{
 div#mainOurExp div div{
   width: auto;
   height: 85%;
+}
+
+mark {
+  -webkit-animation: 1.5s highlight 1.5s 1 normal forwards;
+  animation: 1.5s highlight 1.5s 1 normal forwards;
+  background-color: none;
+  background: linear-gradient(90deg, #e5c996 50%, rgba(255, 255, 255, 0) 50%);
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  padding: 0.2em;
+}
+
+@-webkit-keyframes highlight {
+  to {
+    background-position: 0 0;
+  }
+}
+
+@keyframes highlight {
+  to {
+    background-position: 0 0;
+  }
+}
+
+input.contact,
+textarea.contact {
+  background-color: #ffffff;
+  border: 1px solid #002D2E;
+}
+
+.contact-btn {
+  background-color: #dfbea6;
+  color: #002d2e;
+  font-size: 1.5em;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.30s;
+}
+
+.contact-btn:hover {
+  background-color: #002d2e;
+  color: #FFF;
+}
+
+.contact-btn:hover div img.rightBtnArrow {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(90deg) brightness(100%) contrast(100%)
 }
