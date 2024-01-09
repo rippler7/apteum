@@ -46,7 +46,7 @@ export const images = [
         name: 'Karla',
         position: 'Operations & Accounts Administrator',
         featured: false,
-        quote:"I come from a town called Ipil, in the province of Zamboanga Sibugay, Mindanao. Starting out as a digital marketeer, I now work in business operations and support, with a focus on project management. I studied here in Cebu, at the University of the Philippines, where I completed a Bachelor of Science in Management. The skills I developed in uni are central to my work at Apteum, where I manage projects, generate reports, provide operational support and help to streamline projects. Outside of work, I love to relax at home reading and catching up on movies, or head out to explore restaurants in Cebu City."
+        quote:"I come from a town called Ipil, in the province of Zamboanga Sibugay, Mindanao. Starting out as a digital marketer, I now work in business operations and support, with a focus on project management. I studied here in Cebu, at the University of the Philippines, where I completed a Bachelor of Science in Management. The skills I developed in uni are central to my work at Apteum, where I manage projects, generate reports, provide operational support and help to streamline projects. Outside of work, I love to relax at home reading and catching up on movies, or head out to explore restaurants in Cebu City."
     },
     {
         id: 7,
