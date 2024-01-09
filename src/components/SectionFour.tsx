@@ -2,11 +2,13 @@ import '../components/SectionFour.css'
 import ImgCard from './ImgCard'
 import { Link } from 'react-router-dom'
 import {featuredImg} from '../const/Images'
+import ButtonAvg from '../components/ButtonAvg';
+import arrowRIght from '../assets/arrowRight.svg';
 
 
 function SectionFour(){
     return(
-        <section className="secFourBody h-full pb-0">
+        <section className="secFourBody h-full pb-10">
             <div className="grid">
                 <div className="container px-6 pt-6 justify-center mx-auto">
 
@@ -22,6 +24,7 @@ function SectionFour(){
                     }                    
                     <br />
                 </div>
+                <Link to='../experts'><div className="w-fit m-auto text-center items-center justify-center mt-[3vw]"><ButtonAvg label='To Our Experts' iconRight={<div className='pl-2 items-center flex justify-center m-auto'><img className='rightBtnArrow' src={arrowRIght} width={30} title="arrow right" alt="pointRight" /></div>} /></div></Link>
             </div>
         </section>
        

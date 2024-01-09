@@ -18,7 +18,7 @@ function SectionTwo() {
                         <h4 className='text-2xl'><span className="realistic-marker-highlight"><mark>Scale your business quickly and efficiently.</mark></span></h4>
                         <br />
                         <br />
-                        <h4 className='text-2xl'><span className="realistic-marker-highlight"><mark>Minimise crunch and skills shortages when it matters most.</mark></span></h4>
+                        <h4 className='text-2xl'><span className="realistic-marker-highlight"><mark>Increase efficiency by operating in multiple time zones.</mark></span></h4>
                     </div>
                     <div className='px-10'>
                         <h4 className='text-2xl'><span className="realistic-marker-highlight"><mark>Expand resources to gain a competitive advantage.</mark></span></h4>
