@@ -31,7 +31,10 @@ const ContactUs = () => {
       message = encodeURIComponent(e.message);
     }
 
-    const subject = `${e.name} - ${e.email} ${e.phone && "- " + e.phone}`;
+    const subject = `Apteum Enquiry - ${e.name} - ${e.email} ${
+      e.phone && "- " + e.phone
+    }`;
+
     window.location.href = `mailto:enquire@apteum.com?subject=${subject}&body=${message}`;
   });
 
