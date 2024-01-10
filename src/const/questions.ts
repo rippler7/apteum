@@ -7,7 +7,7 @@ const qna = [
     {
         id:2,
         question:"2. What's the local culture like in Cebu?",
-        ans:"Because if it's history, the Philippines is a westernised culture. Its cities, infrastructure and amenities are very similar to those in Australia, as is its workplace culture and practices. There's also no language barrier. Working with Filipinos is much the same as with working with Australians."
+        ans:"Because of it's history, the Philippines is a westernised culture. Its cities, infrastructure and amenities are very similar to those in Australia, as is its workplace culture and practices. There's also no language barrier. Working with Filipinos is much the same as with working with Australians."
     },
     {
         id:3,
