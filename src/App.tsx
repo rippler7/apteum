@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 
 import Home from "./pages/Home";
-import Expertise from "./pages/Expertise";
+import Services from "./pages/Services";
 import Faq from "./pages/Faq";
 import NoPage from "./pages/NoPage";
 import Story from "./pages/Story";
@@ -27,7 +27,7 @@ const App = () => {
         <Routes>
           <Route path="/">
             <Route index element={<Home />} />
-            <Route path="expertise" element={<Expertise />} />
+            <Route path="services" element={<Services />} />
             <Route path="ourstory" element={<Story />} />
             <Route path="faqs" element={<Faq />} />
             <Route path="experts" element={<OurExperts />} />

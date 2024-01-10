@@ -10,7 +10,7 @@ interface SidebarProps {
 const Sidebar = ({ showSideBar, toggleMenu }: SidebarProps) => {
   return (
     <div
-      className={`p-4 sidebar-container w-[490px] h-screen fixed top-0 ${
+      className={`p-4 sidebar-container h-screen fixed top-0 ${
         showSideBar ? "sidebar-active" : "sidebar-hidden"
       }`}
     >
@@ -24,15 +24,15 @@ const Sidebar = ({ showSideBar, toggleMenu }: SidebarProps) => {
         />
       </div>
 
-      <div className="px-[130px] pt-[86px]">
+      <div className="px-[140px] md:px-[3vw] pt-[86px]">
         <ul className="text-left">
           <li>
             <Link
-              to="expertise"
+              to="services"
               onClick={toggleMenu}
               className=" hover:opacity-70"
             >
-              <h3>Expertise</h3>
+              <h3>Services</h3>
             </Link>
           </li>
           <li>

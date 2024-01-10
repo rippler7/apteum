@@ -51,13 +51,13 @@ function Faq() {
                     )
                 }
             </section>
-            <section className="flex hidden align-middle justify-between w-full px-4 mx-auto md:flex-row sm:px-6 p-8 pb-28 bg-white">
+            <section className="flex align-middle justify-between w-full px-4 mx-auto md:flex-row sm:px-6 p-8 pb-28 bg-white">
                 <div className="container mx-auto flex flex-col items-center px-4 text-center md:py-6 md:px-5 lg:px-16 justify-center">
                     <br />
                     <h2 className="px-8 mt-8 mb-12">
                         Can't find what you are looking for?</h2>
                     <br />
-                    <Link to='/expertise'><div className="w-fit m-auto text-center items-center justify-center mt-[3vw]"> <ButtonAvg label='Contact Us' iconRight={<div className='pl-2 items-center flex justify-center m-auto'><img className='rightBtnArrow' src={arrowRight} width={30} title="arrow right" alt="pointRight" /></div>} /></div></Link>
+                    <Link to='/contact-us'><div className="w-fit m-auto text-center items-center justify-center mt-[3vw]"> <ButtonAvg label='Contact Us' iconRight={<div className='pl-2 items-center flex justify-center m-auto'><img className='rightBtnArrow' src={arrowRight} width={30} title="arrow right" alt="pointRight" /></div>} /></div></Link>
                     <br />
                     <br />
                 </div>

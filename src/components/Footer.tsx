@@ -23,7 +23,7 @@ function Footer() {
         <div className="grid justify-items-center lg:justify-items-end w-full items-center px-6 md:px-10 pt-3 sm:text-center lg:text-right">
           <div className="flex flex-col sm:flex-row sm:items-center gap-2 md:gap-4">
             <div className="text-center">
-              <Link to="expertise">Expertise</Link>
+              <Link to="services">Services</Link>
             </div>
             <div className="text-center sm:col-span-2">
               <Link to="ourstory">Our Story</Link>
