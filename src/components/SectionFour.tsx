@@ -1,4 +1,3 @@
-import '../components/SectionFour.css'
 import ImgCard from './ImgCard'
 import { Link } from 'react-router-dom'
 import {featuredImg} from '../const/Images'
