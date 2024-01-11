@@ -25,8 +25,8 @@ function Services() {
             <div className="relative flex items-center bg-white w-full px-4 mx-auto md:flex-row sm:px-6 p-8">
                 <div className='w-10/12 flex flex-col items-center m-auto md:flex-row'>
                     <div className="flex items-center py-5 md:w-1/2 md:pb-20 md:pt-10 md:pl-10">
-                        <div className="relative w-full p-3 rounded  md:p-8">
-                            <div className="rounded-lg w-full">
+                        <div className="relative w-full p-3 md:p-8">
+                            <div className="w-full">
                                 <img src={heroImg2} className='object-fill' />
                             </div>
                         </div>

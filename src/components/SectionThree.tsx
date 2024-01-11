@@ -6,15 +6,15 @@ function SectionThree(){
     return(
         <div id="sectionThree" className='secThreeBody flex w-full justify-between items-center h-full py-10'>
             
-            <div className='grid justify-evenly h-full w-full items-center align-items'>
+            <div className='grid justify-evenly h-full w-full md:w-full lg:w-9/12 mx-auto items-center align-items'>
                     <div className='tagline w-full px-20'>
                         
                         <h2>How can we help you?</h2>
                         <br />
                     </div>
-                    <div className='grid gap-12 lg:grid-cols-3 justify-between px-5 items-center'>
-                        <div className='px-10 flex flex-col justify-start items-center'>
-                            <div className='s3Feat s3Feat1 w-80 h-80 '>
+                    <div className='grid gap-4 lg:gap-8 lg:grid-cols-3 justify-between px-5 items-center'>
+                        <div className='flex flex-col justify-start items-center'>
+                            <div className='s3Feat s3Feat1 w-full h-80 '>
                                 &nbsp;
                             </div>
                             <div>
@@ -23,8 +23,8 @@ function SectionThree(){
                                 <h5>Assemble a team that will thrive across countries. Enjoy the operational flexibility, enhanced efficiency and lasting results achieved by working in multiple time zones. Hand-pick your new staff or leave recruitment to us.</h5>
                             </div>
                         </div>
-                        <div className='px-10 flex flex-col justify-start items-center'>
-                            <div className='s3Feat s3Feat2 w-80 h-80'>
+                        <div className='flex flex-col justify-start items-center'>
+                            <div className='s3Feat s3Feat2 w-full h-80'>
                                 &nbsp;
                             </div>
                             <div>
@@ -38,8 +38,8 @@ function SectionThree(){
                                 <Link to='../ourstory'><div className="w-fit m-auto text-center items-center justify-center mt-[3vw]"><ButtonAvg label='Learn more' iconRight={<div className='pl-2 items-center flex justify-center m-auto'><img className='rightBtnArrow' src={arrowRIght} width={30} title="arrow right" alt="pointRight" /></div>} /></div></Link>
                             </div>
                         </div>
-                        <div className='px-10 flex flex-col justify-start items-center'>
-                        <div className='s3Feat s3Feat3 w-80 h-80'>
+                        <div className='flex flex-col justify-start items-center'>
+                        <div className='s3Feat s3Feat3 w-full h-80'>
                                 &nbsp;
                             </div>
                             <div>                            

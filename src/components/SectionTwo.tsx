@@ -8,7 +8,7 @@ function SectionTwo() {
                     <h3>Working from Melbourne, Australia and Cebu City, the Philippines, Apteum is a growing team of professionals and specialists with a passion for business, technology and problem solving.</h3>
 
                 </div>
-                <div className='grid gap-20 lg:grid-cols-3 justify-between pt-20'>
+                <div className='grid gap-20 lg:grid-cols-3 justify-center items-center pt-20'>
                     <div className='px-10'>
                         <h4 className='text-2xl'><span className="realistic-marker-highlight"><mark>Connect with a global workforce.</mark></span></h4>
                         <br />
@@ -16,7 +16,6 @@ function SectionTwo() {
                     </div>
                     <div className='px-10'>
                         <h4 className='text-2xl'><span className="realistic-marker-highlight"><mark>Scale your business quickly and efficiently.</mark></span></h4>
-                        <br />
                         <br />
                         <h4 className='text-2xl'><span className="realistic-marker-highlight"><mark>Increase efficiency by operating in multiple time zones.</mark></span></h4>
                     </div>
