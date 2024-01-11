@@ -2,7 +2,7 @@ function SectionFive() {
 	return (
 		<section className="flex align-middle justify-between py-8 mt-8">
 			<div className="container mx-auto flex flex-col items-center px-4 text-center md:py-12 md:px-5 lg:px-16 justify-center">
-				<h2 className="hlText"><span className="realistic-marker-highlight"><mark>What does an Apteum client look like?</mark></span>
+				<h2 className="hlText"><span className="text-highlight">What does an Apteum client look like?</span>
 				</h2>
 				
 				<p className="px-8 mt-8 mb-12 text-2xl">

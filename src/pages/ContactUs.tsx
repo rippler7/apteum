@@ -38,8 +38,9 @@ const ContactUs = () => {
   });
 
   return (
-    <div className="">
-      <div className="w-10/12 m-auto p-[35px] lg:p-[80px] text-left grid grid-cols-1 md:grid-cols-2 gap-[60px]">
+    <div className="m-auto mt-10">
+
+      <div className="p-[35px] lg:p-[80px] text-left grid grid-cols-1 md:grid-cols-2 gap-[60px]">
         <div>
           <h3 className="font-medium">For Business Enquiries</h3>
 

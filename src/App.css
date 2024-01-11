@@ -111,6 +111,8 @@ mark {
   margin-left: 0;
   padding-right:0.3em;
   background-repeat:repeat-y;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
 }
 .realistic-marker-highlight:before{
   content:"";
@@ -127,4 +129,15 @@ mark {
 .svg-filters {
   position:absolute; /*remove from page flow*/
   top:-999em; /*and hide offscreen*/
+}
+
+.text-highlight {
+background-image: url(./paint-brush/brush-9.svg);
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  background-repeat: no-repeat;
+  background-position: 00% 50%;
+  background-size: cover;
+  padding: 0 0.2em;
+  display: inline;
 }
