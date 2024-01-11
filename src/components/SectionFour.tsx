@@ -14,7 +14,7 @@ function SectionFour(){
 
                     <h3 className="text-center mt-10">Our people are what makes Apteum a leader in the industry</h3> </div>
             </div>
-            <div className="container px-6 mx-auto">
+            <div className="container px-6 mx-auto mb-10">
                 <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-3">
                 
                     {
@@ -22,7 +22,6 @@ function SectionFour(){
                         <Link key={item.id} to="experts"><ImgCard {...item}></ImgCard></Link>
                         )
                     }                    
-                    <br />
                 </div>
                 <Link to='../experts'><div className="w-fit m-auto text-center items-center justify-center mt-[3vw]"><ButtonAvg label='To Our Experts' iconRight={<div className='pl-2 items-center flex justify-center m-auto'><img className='rightBtnArrow' src={arrowRIght} width={30} title="arrow right" alt="pointRight" /></div>} /></div></Link>
             </div>
