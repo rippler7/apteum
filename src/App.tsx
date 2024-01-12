@@ -23,7 +23,7 @@ const App = () => {
     <>
       <Navbar />
 
-      <main className="mt-15 relative">
+      <main className="mt-[80px] relative">
         <Routes>
           <Route path="/">
             <Route index element={<Home />} />

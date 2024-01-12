@@ -31,16 +31,15 @@ const ContactUs = () => {
       message = encodeURIComponent(e.message);
     }
 
-    const subject = `Apteum Enquiry - ${e.name} - ${e.email} ${
-      e.phone && "- " + e.phone
-    }`;
+    const subject = `Apteum Enquiry - ${e.name} - ${e.email} ${e.phone && "- " + e.phone
+      }`;
 
     window.location.href = `mailto:enquire@apteum.com?subject=${subject}&body=${message}`;
   });
 
   return (
-    <div className="pt-[80px]">
-      <div className="p-[35px] lg:p-[80px] text-left grid grid-cols-1 md:grid-cols-2 gap-[60px]">
+    <div className="">
+      <div className="w-10/12 m-auto p-[35px] lg:p-[80px] text-left grid grid-cols-1 md:grid-cols-2 gap-[60px]">
         <div>
           <h3 className="font-medium">For Business Enquiries</h3>
 
@@ -113,34 +112,36 @@ const ContactUs = () => {
           </div>
         </form>
       </div>
+      <div className="w-full bg-white">
+      <div className="w-10/12 m-auto p-[35px] lg:p-[80px] lg:pb-[200px] text-left grid grid-cols-1 md:grid-cols-2 gap-[60px]">
+        
+          <div className="pt-3">
+            <img src={ContactForHrImg} alt="" />
+          </div>
+          <div>
+            <h3 className="font-medium">For HR</h3>
 
-      <div className="p-[35px] lg:p-[80px] lg:pb-[200px] text-left grid grid-cols-1 md:grid-cols-2 gap-[60px] bg-white">
-        <div className="pt-3">
-          <img src={ContactForHrImg} alt="" />
-        </div>
-        <div>
-          <h3 className="font-medium">For HR</h3>
+            <h4 className="mt-[38px] font-medium">Cebu Office</h4>
 
-          <h4 className="mt-[38px] font-medium">Cebu Office</h4>
+            <h5 className="mt-[25px]">
+              7th Floor, Park Centrale Bldg., Cebu IT Park
+            </h5>
+            <h5>Cebu City, 6000</h5>
+            <h5>Phillipines</h5>
 
-          <h5 className="mt-[25px]">
-            7th Floor, Park Centrale Bldg., Cebu IT Park
-          </h5>
-          <h5>Cebu City, 6000</h5>
-          <h5>Phillipines</h5>
+            <h3 className="hlText font-medium bg-transparent mt-[50px] ml-[-35px]">
+              <span className="realistic-marker-highlight z-[1]">
+                <mark>Employment Opportunities</mark>
+              </span>
+            </h3>
 
-          <h3 className="hlText font-medium bg-transparent mt-[50px] ml-[-35px]">
-            <span className="realistic-marker-highlight z-[1]">
-              <mark>Employment Opportunities</mark>
-            </span>
-          </h3>
-
-          <h5 className="mt-[25px]">
-            We're always looking for people to join our growing team of
-            professionals in Cebu. If you'd like to apply for a position, or if
-            you have enquiries about working at Apteum, please contact us via
-            email to careers@apteum.com.
-          </h5>
+            <h5 className="mt-[25px]">
+              We're always looking for people to join our growing team of
+              professionals in Cebu. If you'd like to apply for a position, or if
+              you have enquiries about working at Apteum, please contact us via
+              email to careers@apteum.com.
+            </h5>
+          </div>
         </div>
       </div>
     </div>

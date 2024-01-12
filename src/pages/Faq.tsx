@@ -6,7 +6,7 @@ import arrowRight from '../assets/arrowRight.svg'
 function Faq() {
     return (
         <>
-            <section className="min-h-fit pt-20 text-left px-5">
+            <section className="min-h-fit text-left px-5">
                 <br />
                 <h3 className='text-black ml-10'>Frequently Asked Questions (FAQs)</h3>
                 <br />
