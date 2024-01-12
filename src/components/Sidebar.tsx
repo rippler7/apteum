@@ -1,6 +1,7 @@
-import { memo } from "react";
-import CloseIcon from "../assets/icons/close-icon.svg";
+import { memo, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
+
+import CloseIcon from "../assets/icons/close-icon.svg";
 
 interface SidebarProps {
   showSideBar: boolean;
@@ -8,11 +9,33 @@ interface SidebarProps {
 }
 
 const Sidebar = ({ showSideBar, toggleMenu }: SidebarProps) => {
+  const sidebarRef = useRef<HTMLDivElement>(null);
+
+  const handleOutsideClick = (e: MouseEvent) => {
+    const targetEl = e.target as Node;
+
+    if (sidebarRef.current && !sidebarRef.current.contains(targetEl)) {
+      toggleMenu();
+    }
+  };
+
+  useEffect(() => {
+    if (showSideBar) {
+      document.addEventListener("mousedown", handleOutsideClick);
+    }
+
+    return () => {
+      document.removeEventListener("mousedown", handleOutsideClick);
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [showSideBar]);
+
   return (
     <div
       className={`p-4 sidebar-container h-screen fixed top-0 ${
         showSideBar ? "sidebar-active" : "sidebar-hidden"
       }`}
+      ref={sidebarRef}
     >
       <div className="flex justify-end">
         <img
