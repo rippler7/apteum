@@ -32,7 +32,7 @@ const Sidebar = ({ showSideBar, toggleMenu }: SidebarProps) => {
 
   return (
     <div
-      className={`p-4 sidebar-container h-screen fixed top-0 ${
+      className={`p-4 sidebar-container h-screen min-w-[250px] fixed top-0 ${
         showSideBar ? "sidebar-active" : "sidebar-hidden"
       }`}
       ref={sidebarRef}
@@ -47,7 +47,7 @@ const Sidebar = ({ showSideBar, toggleMenu }: SidebarProps) => {
         />
       </div>
 
-      <div className="px-[140px] md:px-[3vw] pt-[86px]">
+      <div className="flex justify-center pt-[86px]">
         <ul className="text-left">
           <li>
             <Link
