@@ -132,7 +132,7 @@ mark {
 }
 
 .text-highlight {
-background-image: url(./paint-brush/brush-9.svg);
+background-image: url(/paint-brush/brush-9.svg);
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
   background-repeat: no-repeat;
