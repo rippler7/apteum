@@ -8,38 +8,38 @@ import { Link } from 'react-router-dom'
 function Services() {
     return (
         <>
-        <section className="relative w-full md:h-fit sm:h-max flex items-end justify-start text-left text-white z-1 pt-20">
+            <section className="relative w-full md:h-fit sm:h-max flex items-end justify-start text-left text-white z-1 pt-20">
                 <div className="img-docker absolute top-0 left-0 w-full h-full overflow-hidden">
                     <img src={heroImgExp} className="w-full h-full brightness-50 object-cover object-left-middle" />
                 </div>
                 <div className='w-full md:w-10/12 mx-auto'>
-                <div className="img-content relative py-5 w-full max-w-sm md:max-w-5xl">
-                    <h2 className='p-10'>You can count on us</h2>
-                    <h3 className="text-3xl px-10">
-                    Apteum offers a suite of services that can be tailored to meet the specific needs of your business. Whether it's technical services, operational support, accounting and bookkeeping, or HR and recruitment, we're here to help you grow.</h3><br />
-<h3 className="text-3xl px-10">When you partner with Apteum, our team in the Philippines becomes an extension of your business. While we're here to provide support, assistance and guidance through the recruitment process, you get to hand-select the people who are right for you. You can also leave recruitment to us—so you can focus on what you do best.
-                    </h3>
-                </div>
+                    <div className="img-content relative lg:py-5 w-full max-w-sm lg:max-w-5xl">
+                        <h2 className='p-10'>You can count on us</h2>
+                        <h3 className="text-3xl px-10">
+                            Apteum offers a suite of services that can be tailored to meet the specific needs of your business. Whether it's technical services, operational support, accounting and bookkeeping, or HR and recruitment, we're here to help you grow.</h3><br />
+                        <h3 className="text-3xl px-10">When you partner with Apteum, our team in the Philippines becomes an extension of your business. While we're here to provide support, assistance and guidance through the recruitment process, you get to hand-select the people who are right for you. You can also leave recruitment to us—so you can focus on what you do best.
+                        </h3>
+                    </div>
                 </div>
             </section>
             <div className="relative flex items-center bg-white w-full px-4 mx-auto md:flex-row sm:px-6 p-8">
-                <div className='w-10/12 flex flex-col items-center m-auto md:flex-row'>
-                    <div className="flex items-center py-5 md:w-1/2 md:pb-20 md:pt-10 md:pl-10">
-                        <div className="relative w-full p-3 md:p-8">
-                            <div className="w-full">
-                                <img src={heroImg2} className='object-fill' />
+                <div className='w-10/12 flex flex-col items-center m-auto lg:flex-row'>
+                    <div className="flex items-center py-5 lg:w-1/2">
+                        <div className="relative p-3">
+                            <div className="w-full lg:w-10/12 mx-auto">
+                                <img src={heroImg2} className='object-cover' />
                             </div>
                         </div>
                     </div>
-                    <div className="flex items-center py-5 md:w-1/2 md:pb-20 md:pt-10 md:pr-10">
-                        <div className="text-left">
+                    <div className="mx-auto flex items-center py-5 lg:w-1/2">
+                        <div className="text-left w-full">
                             <h2
                                 className="text-3xl leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-6xl">
                                 Technology
                             </h2>
                             <br />
                             <p className="mx-auto mt-3 text-lg">
-                            We can provide software and data engineers familiar with various coding languages, methodologies and programs. We also retain skilled UX and UI designers, as well as quality assurance and testing specialists.
+                                We can provide software and data engineers familiar with various coding languages, methodologies and programs. We also retain skilled UX and UI designers, as well as quality assurance and testing specialists.
                             </p>
 
                         </div>
@@ -47,11 +47,11 @@ function Services() {
                 </div>
             </div>
             <div className="relative flex flex-col items-center w-full px-4 mx-auto md:flex-row sm:px-6 p-8">
-                <div className='w-10/12 flex flex-col items-center m-auto md:flex-row'>
-                    <div className="flex items-center py-5 md:w-1/2 md:pb-20 md:pt-10 md:pr-10">
-                        <div className="text-left">
+                <div className='w-10/12 flex flex-col items-center m-auto lg:flex-row'>
+                    <div className="mx-auto flex items-center py-5 lg:w-1/2">
+                        <div className="text-left w-full">
                             <h2
-                                className="text-3xl leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-6xl">
+                                className="text-3xl tracking-tight sm:text-5xl sm:leading-none md:text-6xl">
                                 Accounting and Bookkeeping
                             </h2>
                             <br />
@@ -61,26 +61,26 @@ function Services() {
 
                         </div>
                     </div>
-                    <div className="flex items-center py-5 md:w-1/2 md:pb-20 md:pt-10 md:pl-10">
-                        <div className="relative w-full p-3 rounded  md:p-8">
-                            <div className="rounded-lg w-full">
-                                <img src={heroImg3} className='object-fill object-top' />
+                    <div className="flex items-center py-5 lg:w-1/2">
+                        <div className="relative p-3">
+                            <div className="w-full lg:w-10/12 mx-auto">
+                                <img src={heroImg3} className='object-cover object-top' />
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div className="relative flex items-center bg-white w-full px-4 mx-auto md:flex-row sm:px-6 p-8">
-                <div className='w-10/12 flex flex-col items-center m-auto md:flex-row'>
-                    <div className="flex items-center py-5 md:w-1/2 md:pb-20 md:pt-10 md:pl-10">
-                        <div className="relative w-full p-3 rounded  md:p-8">
-                            <div className="rounded-lg w-full">
-                                <img src={heroImg4} className='object-fill' />
+                <div className='w-10/12 flex flex-col items-center m-auto lg:flex-row'>
+                    <div className="flex items-center py-5 lg:w-1/2">
+                        <div className="relative p-3">
+                            <div className="w-full lg:w-10/12 mx-auto">
+                                <img src={heroImg4} className='object-cover' />
                             </div>
                         </div>
                     </div>
-                    <div className="flex items-center py-5 md:w-1/2 md:pb-20 md:pt-10 md:pr-10">
-                        <div className="text-left">
+                    <div className="mx-auto flex items-center py-5 lg:w-1/2">
+                        <div className="text-left w-full">
                             <h2
                                 className="text-3xl leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-6xl">
                                 Customer & Business Services
@@ -131,8 +131,8 @@ function Services() {
             <section className="flex w-screen h-max align-middle justify-between px-4 mx-auto md:flex-row sm:px-6 p-8 pb-28 mb-20 bg-white">
                 <div className="container mx-auto flex flex-col items-center px-4 text-center md:py-6 md:px-5 lg:px-16 justify-center">
                     <br />
-                    
-                        <h2 className='px-8 mt-8 mb-12'>Do you have a project you would like to discuss?</h2>
+
+                    <h2 className='px-8 mt-8 mb-12'>Do you have a project you would like to discuss?</h2>
                     <br />
                     <Link to='../contact-us'><div className="w-fit m-auto text-center items-center justify-center mt-[3vw]"> <ButtonAvg label='Get started' iconRight={<div className='pl-2 items-center flex justify-center m-auto'><img className='rightBtnArrow' src={arrowRight} width={30} title="arrow right" alt="pointRight" /></div>} /></div></Link>
                     <br />
