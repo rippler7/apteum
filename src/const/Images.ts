@@ -22,7 +22,7 @@ export const images = [
         name: 'Francis',
         position: 'Front End Engineer',
         featured: true,
-        quote:"With 6 years in Software Development, I'm a proud product of City of Golden Friendship, Cagayan de Oro. I am a Computer Engineering graduate from The University of Science and Technology of Southern Philippines. Beyond code, I'm immersed in single-player RPGs like Legend of Zelda and The Witcher 3. Fun fact, I am also an avid driver, whether in a car or on a motorcycle, with dreams of owning a Big Bike. Anime has been staple for me since childhood as well. I joined Apteum as a Front-end Developer, diving into React, Next, Javascript, and front-end development. My workdays consist of being surrounded by colleagues who make even tough tasks enjoyable. Apteum's kind-hearted environment fosters a culture where extending a helping hand is second nature."
+        quote:"With 6 years in Software Development, I'm a proud product of City of Golden Friendship, Cagayan de Oro. I am a Computer Engineering graduate from The University of Science and Technology of Southern Philippines. Beyond code, I'm immersed in single-player RPGs like Legend of Zelda and The Witcher 3. Fun fact, I am also an avid driver, whether in a car or on a motorcycle, with dreams of owning a Big Bike. Anime has been a staple for me since childhood as well. I joined Apteum as a Front-end Developer, diving into React, Next, Javascript, and front-end development. My workdays consist of being surrounded by colleagues who make even tough tasks enjoyable. Apteum's kind-hearted environment fosters a culture where extending a helping hand is second nature."
     },
     {
         id: 4,

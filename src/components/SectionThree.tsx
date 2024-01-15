@@ -6,7 +6,7 @@ function SectionThree() {
     return (
         <div id="sectionThree" className='secThreeBody flex w-full justify-between items-center h-full py-10'>
 
-            <div className='grid justify-evenly h-full w-full md:w-full lg:w-9/12 mx-auto items-center align-items'>
+            <div className='grid justify-evenly h-full w-full md:w-full lg:w-11/12 mx-auto items-center align-items'>
                 <div className='tagline w-full px-20'>
 
                     <h2>How can we help you?</h2>
