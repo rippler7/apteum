@@ -37,7 +37,7 @@ const App = () => {
           </Route>
         </Routes>
       </main>
-      <div className="w-full bottom-0 relative lg:fixed mt-10 z-[2]">
+      <div className="w-full bottom-0 relative lg:fixed z-[2]">
         <Footer />
       </div>
       <svg
