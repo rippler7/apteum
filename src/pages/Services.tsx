@@ -94,9 +94,9 @@ function Services() {
                     </div>
                 </div>
             </div>
-            <section className="relative px-6 pb-10 align-middle w-full mx-auto  text-left mb-10 lg:mb-20">
-                <h2 className='m-auto w-10/12'>How it works</h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 w-10/12 m-auto gap-2 md:gap-8 mt-3 md:mt-8 px-4 md:px-10 xl:mt-16 sm:grid-cols-1 text-left justify-between">
+            <section className="relative px-6 py-10 align-middle w-full mx-auto  text-left mb-10 lg:mb-20">
+                <h2 className='m-auto lg:w-10/12'>How it works</h2>
+                <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 lg:w-10/12 m-auto gap-2 lg:gap-8 mt-3 lg:mt-8 px-8 lg:px-10 md:px-4 xl:mt-16 sm:grid-cols-1 text-left justify-between">
                     <div className='mb-10 md:mb-5'>
                         <h3><span className="realistic-marker-highlight">Clients</span></h3>
                         <br />
