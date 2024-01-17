@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Services from "./pages/Services";
 import Faq from "./pages/Faq";
 import NoPage from "./pages/NoPage";
+import Careers from "./pages/Careers";
 import Story from "./pages/Story";
 import OurExperts from "./pages/OurExperts";
 import ContactUs from "./pages/ContactUs";
@@ -30,6 +31,7 @@ const App = () => {
             <Route path="services" element={<Services />} />
             <Route path="ourstory" element={<Story />} />
             <Route path="faqs" element={<Faq />} />
+            <Route path="careers" element={<Careers />} />
             <Route path="experts" element={<OurExperts />} />
             <Route path="experts/:id" element={<ExpertPage />} />
             <Route path="contact-us" element={<ContactUs />} />

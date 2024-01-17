@@ -72,8 +72,8 @@ const Sidebar = ({ showSideBar, toggleMenu }: SidebarProps) => {
               <h3>Our Experts</h3>
             </Link>
           </li>
-          <li className="hidden" onClick={toggleMenu}>
-            <Link to="nopage">
+          <li className="hover:opacity-70" onClick={toggleMenu}>
+            <Link to="careers">
               <h3>Careers</h3>
             </Link>
           </li>

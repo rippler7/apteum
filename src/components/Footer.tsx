@@ -31,6 +31,9 @@ function Footer() {
             <div className="text-center sm:col-span-2">
               <Link to="experts">Our Experts</Link>
             </div>
+            <div className="text-center sm:col-span-2">
+              <Link to="careers">Careers</Link>
+            </div>
             <div className="text-center">
               <Link to="faqs">FAQ</Link>
             </div>
