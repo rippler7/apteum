@@ -45,7 +45,7 @@ function SectionThree() {
                     </div>
                 </div>
                 <div className='w-fit h-fit mx-auto'>
-                    <Link to='../ourstory'><div className="w-fit m-auto text-center items-center justify-center mt-[3vw]"><ButtonAvg label='Learn more' iconRight={<div className='pl-2 items-center flex justify-center m-auto'><img className='rightBtnArrow' src={arrowRIght} width={30} title="arrow right" alt="pointRight" /></div>} /></div></Link>
+                    <Link to='../ourstory'><div className="w-fit m-auto text-center items-center justify-center mt-[3vw]"><ButtonAvg label='To Our Story' iconRight={<div className='pl-2 items-center flex justify-center m-auto'><img className='rightBtnArrow' src={arrowRIght} width={30} title="arrow right" alt="pointRight" /></div>} /></div></Link>
                     <br />
                     &nbsp;
                 </div>
