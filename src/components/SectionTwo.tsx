@@ -2,13 +2,13 @@ function SectionTwo() {
     return (
         <div id="sec2" className='secTwoBody relative w-full justify-between items-center h-full py-20 z-2'>
 
-            <div className='flex flex-col justify-evenly h-full w-10/12 mx-auto items-center align-items'>
-                <div className='tagline w-full px-5 lg:px-20'>
+            <div className='flex flex-col justify-evenly h-full w-full md:w-full lg:w-11/12 mx-auto items-center align-items'>
+                <div className='tagline w-full sm:w-full px-8 md:px-0 md:w-10/12 lg:w-9/12 xl:10/12 lg:px-5'>
 
                     <h3>Working from Melbourne, Australia and Cebu City, the Philippines, Apteum is a growing team of professionals and specialists with a passion for business, technology and problem solving.</h3>
 
                 </div>
-                <div className='grid gap-20 lg:grid-cols-3 justify-center items-center pt-20'>
+                <div className='grid gap-2 md:gap-2 lg:gap-8 lg:grid-cols-3 justify-center items-center pt-10'>
                     <div className='px-10'>
                         <h4 className='text-2xl'><span className="text-highlight"><mark>Scale your business quickly and efficiently.</mark></span></h4>
                         <h4 className='text-2xl'><span className="hidden text-highlight"><mark>Connect with a global workforce.</mark></span></h4>

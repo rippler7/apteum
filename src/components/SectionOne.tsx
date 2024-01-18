@@ -16,7 +16,7 @@ function SectionOne() {
                         <div className="w-full h-full text-center items-center mt-10">
                             <br />
                             <br />
-                            <h1 className="text-highlight mt-8 w-full">Looking to grow?</h1>
+                            <h1 className="text-highlight mt-8 w-full"><mark>Looking to grow?</mark></h1>
                             <br />
                             <h3 className='px-1.5 w-8/12 mx-auto mt-8'>Apteum pairs you with professionals abroad to build bespoke staffing solutions</h3>
                             <br />
