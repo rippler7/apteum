@@ -1,12 +1,12 @@
 .heroImg{
-    background-image: url('../assets/DSC09860.jpg');
+    background: url('../assets/DSC09860.jpg');
     background-size:cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center bottom;
     width:50%;
     height:100%;
 }
 
 .secOneBody {
-    background: url('../assets/worldMap.png') bottom right no-repeat;
+    background: url('../assets/worldMap.png') bottom center no-repeat;
 }
