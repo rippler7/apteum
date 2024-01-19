@@ -2,9 +2,10 @@ interface ImgCardProps {
   photo: string;
   name: string;
   position: string;
+  highlight?: boolean;
 }
 
-function ImgCard({ photo, name, position }: ImgCardProps) {
+function ImgCard({ photo, name, position, highlight = false }: ImgCardProps) {
   return (
     <div className="flex flex-col text-left cursor-pointer">
       <div className="overflow-clip w-100">
@@ -15,7 +16,7 @@ function ImgCard({ photo, name, position }: ImgCardProps) {
         />
       </div>
 
-      <h3 className="mt-4 text-2xl w-fit font-semibold capitalize text-highlight">
+      <h3 className={`mt-4 text-2xl w-fit capitalize ${highlight ? 'text-highlight' : ''}`}>
         {name}
       </h3>
       <p className="mt-2 capitalize">{position}</p>

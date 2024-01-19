@@ -26,7 +26,7 @@ const ExpertPage = () => {
 
       <div className="mt-6 grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
         <div className="col-span-1">
-          <ImgCard key={params.id} {...data}></ImgCard>
+          <ImgCard key={params.id} highlight {...data}></ImgCard>
         </div>
 
         <div className="lg:col-span-2">

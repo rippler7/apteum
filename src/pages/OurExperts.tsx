@@ -40,7 +40,7 @@ function OurExperts() {
           {images &&
             images.map((item) => (
               <div key={item.id} onClick={() => onClickExpert(item.id)}>
-                <ImgCard {...item}></ImgCard>
+                <ImgCard {...item} highlight></ImgCard>
               </div>
             ))}
         </div>
