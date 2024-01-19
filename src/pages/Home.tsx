@@ -20,14 +20,14 @@ function Home(){
         <div className='hidden md:block w-full md:h-full sm:h-full mb-auto'>     
           <SectionThree />       
         </div>
-        <div className='w-full md:h-full sm:h-full mb-auto bg-transparent md:bg-white'>     
+        <div className='w-full md:h-full sm:h-full mb-auto bg-white'>     
           <SectionFour />       
         </div>
-        <div className='w-full md:h-full sm:h-full mb-auto bg-white md:bg-transparent'>     
-          <SectionFive />       
-        </div>
-        <div className='hidden md:block w-full md:h-full sm:h-full mb-auto bg-transparent md:bg-white'>     
+        <div className='hidden md:block w-full md:h-full sm:h-full mb-auto bg-white md:bg-transparent'>     
           <SectionSix />       
+        </div>
+        <div className='w-full md:h-full sm:h-full mb-auto bg-transparent md:bg-white'>     
+          <SectionFive />       
         </div>
         <div className='w-full mb-0 bg-white md:bg-transparent'>     
           <SectionSeven />       
