@@ -94,47 +94,47 @@ function Services() {
                     </div>
                 </div>
             </div>
-            <section className="relative px-6 py-10 align-middle w-full mx-auto  text-left mb-10 lg:mb-20">
+            <section className="relative w-10/12 py-10 align-middle mx-auto  text-left lg:mb-20">
                 <h2 className='m-auto lg:w-10/12'>How it works</h2>
-                <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 lg:w-10/12 m-auto gap-2 lg:gap-8 mt-3 lg:mt-8 px-8 lg:px-10 md:px-4 xl:mt-16 sm:grid-cols-1 text-left justify-between">
-                    <div className='mb-10 md:mb-5'>
+                <div className="grid grid-cols-1 lg:grid-cols-2 md:grid-cols-1 lg:w-10/12 m-auto lg:gap-8 mt-3 lg:mt-8 md:px-4 xl:mt-16 sm:grid-cols-1 text-left justify-between">
+                    <div className='md:mb-5'>
                         <h3><span className="realistic-marker-highlight">Clients</span></h3>
                         <br />
-                        <p>
+                        <p className='text-2xl'>
                             Our services are tailored for small-to-medium size businesses looking to grow the right way. Rather than provide a one-size-fits-all solution, we focus on developing relationships with like-minded clients who align with our values and share our enthusiasm for a more ethical approach to outsourcing.
                         </p>
                     </div>
                     <div className='mb-10 md:mb-5'>
                         <h3><span className="realistic-marker-highlight">Culture</span></h3>
                         <br />
-                        <p>
+                        <p className='text-2xl'>
                             At Apteum, we cultivate a working environment grounded in kindness, compassion and understanding. Whether you're a client in Australia or abroad, or a member of our team in Cebu, we treat all collaborators with dignity and respect.
                         </p>
                     </div>
                     <div className='mb-10 md:mb-5'>
                         <h3><span className="realistic-marker-highlight">Workflow</span></h3>
                         <br />
-                        <p>
+                        <p className='text-2xl'>
                             You'll have complete oversight of day-to-day operations. Our team members in Cebu City will report directly to you, ensuring your workflow is never staggered. Our Melbourne team will be on hand to assist with all changes, big and small.
                         </p>
                     </div>
                     <div className='mb-10 md:mb-5'>
                         <h3><span className="realistic-marker-highlight">Results</span></h3>
                         <br />
-                        <p>
+                        <p className='text-2xl'>
                             Our services are underpinned by the most advanced technologies and methodologies available, and when it comes to problem solving our team members are warmly encouraged to innovate to deliver the best possible outcome.
                         </p>
                     </div>
                     <br />
                 </div>
             </section>
-            <section className="flex w-screen h-max align-middle justify-between px-4 mx-auto md:flex-row sm:px-6 p-8 pb-28 mb-20 bg-white">
+            <section className="flex w-screen h-max align-middle justify-between px-4 mx-auto md:flex-row sm:px-6 p-8 bg-white">
                 <div className="container mx-auto flex flex-col items-center px-4 text-center md:py-6 md:px-5 lg:px-16 justify-center">
                     <br />
 
-                    <h2 className='px-8 mt-8 mb-12'>Do you have a project you would like to discuss?</h2>
+                    <h2 className='px-8 mb-12'>Do you have a project you would like to discuss?</h2>
                     <br />
-                    <Link to='../contact-us'><div className="w-fit m-auto text-center items-center justify-center mt-[3vw]"> <ButtonAvg label='Get started' iconRight={<div className='pl-2 items-center flex justify-center m-auto'><img className='rightBtnArrow' src={arrowRight} width={30} title="arrow right" alt="pointRight" /></div>} /></div></Link>
+                    <Link to='../contact-us'><div className="w-fit m-auto text-center items-center justify-center mt-[3vw] mb-5"> <ButtonAvg label='Get started' iconRight={<div className='pl-2 items-center flex justify-center m-auto'><img className='rightBtnArrow' src={arrowRight} width={30} title="arrow right" alt="pointRight" /></div>} /></div></Link>
                     <br />
                     <br />
                 </div>

@@ -17,8 +17,7 @@ function ImgCard({ photo, name, position, highlight = false }: ImgCardProps) {
       </div>
 
       <h3 className={`mt-4 text-2xl w-fit capitalize ${highlight ? 'text-highlight' : ''}`}>
-        {name}
-      </h3>
+        <span className="highlight">{name}</span></h3>
       <p className="mt-2 capitalize">{position}</p>
     </div>
   );

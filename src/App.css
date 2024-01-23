@@ -140,10 +140,10 @@ background-image: url(/paint-brush/brush-9.svg);
   background-size: cover;
   padding: 0 0.2em;
   display: inline;
+  border-radius: 1px;
 }
 
 .secFourTag{
   text-align: left !important;
   display:flex;
 }
-
