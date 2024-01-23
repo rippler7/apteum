@@ -39,7 +39,7 @@ function Faq() {
                                                 leaveFrom="transform scale-100 opacity-100"
                                                 leaveTo="transform scale-95 opacity-0"
                                             >
-                                                <Disclosure.Panel className="px-4 text-left pb-2 pt-4 text-gray-700 mb-2">
+                                                <Disclosure.Panel className="px-4 text-left pb-2 pt-4 mb-2">
                                                     <h5><span className='text-2xl'>{qa.ans}</span></h5>
                                                 </Disclosure.Panel>
                                             </Transition>

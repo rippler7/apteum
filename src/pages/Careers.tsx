@@ -60,7 +60,7 @@ function Careers() {
                     {
                         joblist && joblist.map((job) =>
                             <div key={job.id} className='mb-10 lg:mb-5'>
-                                <h3><span className="realistic-marker-highlight">{job.title}</span></h3>
+                                <h3 className="text-highlight">{job.title}</h3>
                                 <h4>{job.type}</h4>
                                 <h4>{job.city}, {job.country}</h4>
                                 <br />
