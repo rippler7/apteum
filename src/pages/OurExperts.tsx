@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import mainExpBanner from "../assets/worldMap-sm.png";
 import ImgCard from "../components/ImgCard";
 import { images } from "../const/Images";
+import { Helmet } from "react-helmet";
 
 function OurExperts() {
   const navigate = useNavigate();
@@ -13,6 +14,13 @@ function OurExperts() {
 
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Meet Our Experts</title>
+        <link rel="canonical" href="https://apteum.com/experts" />
+        <meta name="description" content="Apteum pairs you with professionals abroad to build bespoke staffing solutions" />
+        <meta name="keywords" content="Apteum, customer service, people support, professional services, staffing solutions, staffing, expertise, service specialists, employers, jobseekers, project management, talented professionals, talent acquisition service, staff recruitment"></meta>
+      </Helmet>
       <section className="relative w-full md:h-fit sm:h-max flex items-end justify-start text-left text-[#002d2e] z-1 pb-20">
         <div className="img-docker absolute top-0 left-0 w-full h-full overflow-hidden">
           <img

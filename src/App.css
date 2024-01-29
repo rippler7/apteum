@@ -143,6 +143,10 @@ background-image: url(/paint-brush/brush-9.svg);
   border-radius: 1px;
 }
 
+.text-highlight::before {
+  transition: width 1s ease-in-out;
+}
+
 .secFourTag{
   text-align: left !important;
   display:flex;

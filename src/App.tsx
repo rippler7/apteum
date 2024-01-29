@@ -14,6 +14,7 @@ import Navbar from "./components/NavBar";
 
 import useScrollToTop from "./hooks/useScrollToTop";
 import ExpertPage from "./pages/ExpertPage";
+import { Helmet } from "react-helmet";
 
 import "./App.css";
 
@@ -22,6 +23,13 @@ const App = () => {
 
   return (
     <>
+    <Helmet>
+        <meta charSet="utf-8" />
+        <title>Welcome to Apteum</title>
+        <link rel="canonical" href="https://apteum.com" />
+        <meta name="description" content="Apteum pairs you with professionals abroad to build bespoke staffing solutions" />
+        <meta name="keywords" content="Apteum, customer service, people support, professional services, staffing solutions, staffing, expertise, service specialists, employers, jobseekers, project management, talented professionals, staff recruitment"></meta>
+      </Helmet>
       <Navbar />
 
       <main className="mt-[80px] relative">

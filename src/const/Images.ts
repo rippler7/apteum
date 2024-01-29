@@ -12,7 +12,7 @@ export const images = [
         id: 2,
         photo: dir + '/IMG_6259.JPG',
         name: 'Mitchie',
-        position: 'Customer Service Specialist',
+        position: 'Customer Success Specialist',
         featured: true,
         quote:"I grew up in Carcar, not far from Cebu City. Following my studies in Science and IT, I've held various roles in the BPO industry for almost a decade, including fraud analysis, advanced technical support and sales. At Apteum, I work in customer service, helping to ensure customer enquiries are quickly resolved, or escalated to the appropriate team. Problem-solving, resourcefulness, ingenuity, creative thinking and clear communication skills are central to my work. Outside of Apteum, I perform from time to time as a singer. It's always been a great love of mine!"
     },
@@ -20,7 +20,7 @@ export const images = [
         id: 3,
         photo: dir + '/IMG_6252.JPG',
         name: 'Francis',
-        position: 'Front End Engineer',
+        position: 'Front-end Developer',
         featured: true,
         quote:"With 6 years in Software Development, I'm a proud product of City of Golden Friendship, Cagayan de Oro. I am a Computer Engineering graduate from The University of Science and Technology of Southern Philippines. Beyond code, I'm immersed in single-player RPGs like Legend of Zelda and The Witcher 3. Fun fact, I am also an avid driver, whether in a car or on a motorcycle, with dreams of owning a Big Bike. Anime has been a staple for me since childhood as well. I joined Apteum as a Front-end Developer, diving into React, Next, Javascript, and front-end development. My workdays consist of being surrounded by colleagues who make even tough tasks enjoyable. Apteum's kind-hearted environment fosters a culture where extending a helping hand is second nature."
     },
@@ -68,7 +68,7 @@ export const images = [
         id: 9,
         photo: dir + '/Miggs.jpg',
         name: 'Miguel',
-        position: 'Data Engineer',
+        position: 'Spatial Data Engineer',
         featured: false,
         quote:"I'm a data analyst from Baao, a small town in southern Luzon. Since moving to Cebu City and joining the Apteum team, I’ve been working on a range of projects using GIS and SQL to process datasets and share them with the local team and our international clients. Despite being a data analyst, I studied Environmental Management at a tertiary level, and spent much of my time at university working as a student journalist—which helped me to develop the excellent communication skills I need to analyse and share data. Outside of work I love learning new skills, like combat sports, and making Pandesal for friends and family. It's a traditional Filipino bread that everyone should try some day."
     }

@@ -6,6 +6,8 @@ import { getDataById } from "../const/Images";
 
 import IconRight from "../assets/arrowRight.svg";
 
+import {Helmet} from 'react-helmet';
+
 const ExpertPage = () => {
   const navigate = useNavigate();
   const params = useParams();
@@ -21,6 +23,14 @@ const ExpertPage = () => {
   }
 
   return (
+    <div>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Expert Info</title>
+        <meta name="description" content="NMeet Our Experts" />
+        <meta name="description" content="Apteum pairs you with professionals abroad to build bespoke staffing solutions" />
+        <meta name="keywords" content="Apteum, customer service, people support, professional services, staffing solutions, staffing, expertise, service specialists, employers, jobseekers, project management, talented professionals, talent acquisition service, staff recruitment"></meta>
+      </Helmet>
     <section className="w-full p-6 lg:py-10 lg:px-20 xl:px-30 h-full">
       <h2 className="text-left">Meet the Experts</h2>
 
@@ -43,6 +53,7 @@ const ExpertPage = () => {
         </button>
       </div>
     </section>
+    </div>
   );
 };
 

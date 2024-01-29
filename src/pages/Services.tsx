@@ -4,10 +4,18 @@ import heroImg3 from '../assets/expertise-pic3.jpg'
 import heroImg4 from '../assets/expertise-pic4.jpg'
 import ButtonAvg from '../components/ButtonAvg'
 import arrowRight from '../assets/arrowRight.svg'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet'
 function Services() {
     return (
         <>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Services</title>
+                <link rel="canonical" href="https://apteum.com/services" />
+                <meta name="description" content="Apteum pairs you with professionals abroad to build bespoke staffing solutions" />
+                <meta name="keywords" content="Apteum, customer service, people support, professional services, staffing solutions, staffing, expertise, service specialists, employers, jobseekers, project management, talented professionals, talent acquisition service, staff recruitment"></meta>
+            </Helmet>
             <section className="relative w-full md:h-fit sm:h-max flex items-end justify-start text-left text-white z-1 pt-20">
                 <div className="img-docker absolute top-0 left-0 w-full h-full overflow-hidden">
                     <img src={heroImgExp} className="w-full h-full brightness-50 object-cover object-left-middle" />

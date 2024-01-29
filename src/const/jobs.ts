@@ -43,15 +43,6 @@ export const joblist = [
         country: "Philippines",
         desc:"The purpose of this role is to drive audience awareness, engagement and conversion. This role involves all stages of the funnel from acquiring new members, retaining current members and consumers, and by being involved in property conversations.",
         link:"https://www.jobstreet.com.ph/job/72456680?type=standard&ref=search-standalone#sol=d1481a98a9cd2f44a162d7d58435ceb24058a7bd"
-    },
-    {
-        id:6,
-        title: "UI/UX Designer",
-        type:"Full time",
-        city:"Cebu City",
-        country: "Philippines",
-        desc:"Are you an experienced UI/UX Designer looking for a new challenge? Do you want to work on impactful products and create magnificent designs for them? We have just the role for you!\nWe are seeking a talented and experienced UI/UX Designer that will help translate business and customer needs to high-quality design solutions using various design and research methodologies to ensure an excellent user experience. As the UI/UX Designer, you will be responsible for the creation, communication, and implementation of our design services.\n\n At our company, we value our employees' well-being and work-life balance. That's why we offer a healthy work-life balance. We believe that when our team members are happy and energised, they produce their best work.",
-        link:"https://www.jobstreet.com.ph/job/72456680?type=standard&ref=search-standalone#sol=d1481a98a9cd2f44a162d7d58435ceb24058a7bd"
     }
 ];
 

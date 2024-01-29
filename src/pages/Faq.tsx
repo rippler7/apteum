@@ -2,10 +2,18 @@ import { Disclosure, Transition } from '@headlessui/react';
 import { Link } from 'react-router-dom';
 import ButtonAvg from '../components/ButtonAvg';
 import qna from '../const/questions';
-import arrowRight from '../assets/arrowRight.svg'
+import arrowRight from '../assets/arrowRight.svg';
+import { Helmet } from 'react-helmet';
 function Faq() {
     return (
-        <>
+        <div>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Frequently Asked Questions</title>
+                <link rel="canonical" href="https://apteum.com/faqs" />
+                <meta name="description" content="Apteum pairs you with professionals abroad to build bespoke staffing solutions" />
+                <meta name="keywords" content="Apteum, customer service, people support, professional services, staffing solutions, staffing, expertise, service specialists, employers, jobseekers, project management, talented professionals, talent acquisition service, staff recruitment"></meta>
+            </Helmet>
             <section className="min-h-fit text-left px-5">
                 <br />
                 <h3 className='text-black ml-10 text-4xl'>Frequently Asked Questions (FAQs)</h3>
@@ -17,7 +25,7 @@ function Faq() {
                     We try to take an ethical approach to remote hiring and be transparent about our actions. The following FAQs explain where our staff work and how we provide for them.
                 </p>
                 {
-                    qna && qna.map((qa) => 
+                    qna && qna.map((qa) =>
                         <Disclosure as="div" key={qa.id}>
                             {({ open }) => (
                                 <div>
@@ -62,7 +70,7 @@ function Faq() {
                     <br />
                 </div>
             </section>
-        </>
+        </div>
     )
 }
 
