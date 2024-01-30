@@ -1,3 +1,4 @@
+
 function SectionTwo() {
     return (
         <div id="sec2" className='secTwoBody relative w-full justify-between items-center h-full py-20 z-2'>
@@ -6,7 +7,6 @@ function SectionTwo() {
                 <div className='tagline w-full sm:w-full px-8 md:px-0 md:w-10/12 lg:w-9/12 xl:10/12 lg:px-5'>
 
                     <h3>Working from Melbourne, Australia and Cebu City, the Philippines, Apteum is a growing team of professionals and specialists with a passion for business, technology and problem solving.</h3>
-
                 </div>
                 <div className='grid gap-2 md:gap-2 lg:gap-8 lg:grid-cols-3 justify-center items-center pt-10'>
                     <div className='px-10'>

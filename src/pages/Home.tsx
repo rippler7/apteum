@@ -11,7 +11,7 @@ function Home() {
   return (
     <div>
       <Helmet>
-        <meta charSet="utf-8" />
+      <meta charSet="utf-8" />
         <title>Welcome to Apteum</title>
         <link rel="canonical" href="https://apteum.com" />
         <meta name="description" content="Apteum pairs you with professionals abroad to build bespoke staffing solutions" />
@@ -32,13 +32,13 @@ function Home() {
           <div className='w-full md:h-full sm:h-full mb-auto bg-white'>
             <SectionFour />
           </div>
-          <div className='hidden md:block w-full md:h-full sm:h-full mb-auto bg-white md:bg-transparent'>
+          <div className='hidden md:block w-full md:h-full sm:h-full mb-auto bg-white md:bg-icy-blue'>
             <SectionSix />
           </div>
-          <div className='w-full md:h-full sm:h-full mb-auto bg-transparent md:bg-white'>
+          <div className='w-full md:h-full sm:h-full mb-auto bg-icy-blue md:bg-white'>
             <SectionFive />
           </div>
-          <div className='w-full mb-0 bg-white md:bg-transparent'>
+          <div className='w-full mb-0 bg-white md:bg-icy-blue'>
             <SectionSeven />
           </div>
         </div>

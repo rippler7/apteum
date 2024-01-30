@@ -139,7 +139,7 @@ const ContactUs = () => {
               <h5>Cebu City, 6000</h5>
               <h5>Phillipines</h5>
 
-              <h3 className="hlText font-medium bg-transparent mt-[50px] ml-[-35px]">
+              <h3 className="hlText font-medium mt-[50px] ml-[-35px]">
                 <span className="realistic-marker-highlight z-[1]">
                   <mark>Employment Opportunities</mark>
                 </span>

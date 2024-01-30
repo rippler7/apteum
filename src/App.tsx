@@ -15,18 +15,19 @@ import Navbar from "./components/NavBar";
 import useScrollToTop from "./hooks/useScrollToTop";
 import ExpertPage from "./pages/ExpertPage";
 import { Helmet } from "react-helmet";
-
+import useThemeDetect from "./hooks/useThemeDetector";
 import "./App.css";
 
 const App = () => {
   useScrollToTop();
-
+  const isCurrTheme = useThemeDetect();
   return (
     <>
     <Helmet>
         <meta charSet="utf-8" />
         <title>Welcome to Apteum</title>
         <link rel="canonical" href="https://apteum.com" />
+        <link rel="icon" type="image/svg+xml" href={isCurrTheme ? "/Apteum_logo_RGB.svg" : "/Apteum_logo_WHITE.svg"} />
         <meta name="description" content="Apteum pairs you with professionals abroad to build bespoke staffing solutions" />
         <meta name="keywords" content="Apteum, customer service, people support, professional services, staffing solutions, staffing, expertise, service specialists, employers, jobseekers, project management, talented professionals, staff recruitment"></meta>
       </Helmet>
