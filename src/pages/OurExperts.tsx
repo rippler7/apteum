@@ -21,7 +21,7 @@ function OurExperts() {
         <meta name="description" content="Apteum pairs you with professionals abroad to build bespoke staffing solutions" />
         <meta name="keywords" content="Apteum, customer service, people support, professional services, staffing solutions, staffing, expertise, service specialists, employers, jobseekers, project management, talented professionals, talent acquisition service, staff recruitment"></meta>
       </Helmet>
-      <section className="relative w-full md:h-fit sm:h-max flex items-end justify-start text-left text-[#002d2e] z-1 pb-20">
+      <section className="relative w-full md:h-fit sm:h-max flex items-end justify-start text-left text-midnight-blue z-1 pb-20">
         <div className="img-docker absolute top-0 left-0 w-full h-full overflow-hidden">
           <img
             src={mainExpBanner}

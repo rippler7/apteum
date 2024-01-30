@@ -8,7 +8,8 @@ export default {
       lg: '976px',
       xl: '1440px',
     },
-    colors: {
+    extend: {
+      colors: {
       'icy-blue': '#edf4f3',
       'midnight-blue': '#002d2e',
       'beige': '#e5c996',
@@ -17,9 +18,8 @@ export default {
       'gray': '#8492a6',
       'gray-light': '#d3dce6',
       'white':'#ffffff'
+      }
     },
-    extend: {},
   },
   plugins: [],
 }
-
