@@ -49,22 +49,22 @@ const ContactUs = () => {
       </Helmet>
       <div className="m-auto mt-10">
 
-        <div className="p-[35px] lg:p-[80px] lg:w-10/12 mx-auto text-left grid grid-cols-1 md:grid-cols-2 gap-[60px]">
+        <div className="p-5 lg:p-8 lg:w-10/12 mx-auto text-left grid grid-cols-1 md:grid-cols-2 gap-2">
           <div>
             <h3 className="font-medium">For Business Enquiries</h3>
 
-            <h4 className="mt-[38px] font-medium">Melbourne Office</h4>
+            <h4 className="mt-5 font-medium">Melbourne Office</h4>
 
-            <h5 className="mt-[25px]">49-51 Stead Street</h5>
+            <h5 className="mt-3">49-51 Stead Street</h5>
             <h5>South Melbourne 3205</h5>
             <h5>VIC Australia</h5>
 
-            <h5 className="mt-[25px]">
+            <h5 className="mt-3">
               Please fill out our contact form or alternatively email us. We will
               be in touch with you shortly.
             </h5>
 
-            <h5 className="mt-[25px]">enquire@apteum.com</h5>
+            <h5 className="mt-2">enquire@apteum.com</h5>
           </div>
 
           <form onSubmit={onClickSend}>
@@ -123,7 +123,7 @@ const ContactUs = () => {
           </form>
         </div>
         <div className="w-full bg-white">
-          <div className="lg:w-10/12 mx-auto p-[35px] lg:p-[80px] lg:pb-[200px] text-left grid grid-cols-1 md:grid-cols-2 gap-[60px]">
+          <div className="lg:w-10/12 mx-auto p-3 lg:p-8 lg:pb-10 text-left grid grid-cols-1 md:grid-cols-2 gap-2">
 
             <div className="pt-3">
               <img src={ContactForHrImg} alt="" />
@@ -131,21 +131,21 @@ const ContactUs = () => {
             <div>
               <h3 className="font-medium">For HR</h3>
 
-              <h4 className="mt-[38px] font-medium">Cebu Office</h4>
+              <h4 className="mt-6 font-medium">Cebu Office</h4>
 
-              <h5 className="mt-[25px]">
+              <h5 className="mt-5">
                 7th Floor, Park Centrale Bldg., Cebu IT Park
               </h5>
               <h5>Cebu City, 6000</h5>
               <h5>Phillipines</h5>
 
-              <h3 className="hlText font-medium mt-[50px] ml-[-35px]">
+              <h3 className="hlText font-medium mt-10">
                 <span className="realistic-marker-highlight z-[1]">
                   <mark>Employment Opportunities</mark>
                 </span>
               </h3>
 
-              <h5 className="mt-[25px]">
+              <h5 className="mt-5">
                 We're always looking for people to join our growing team of
                 professionals in Cebu. If you'd like to apply for a position, or if
                 you have enquiries about working at Apteum, please contact us via

@@ -25,10 +25,10 @@ function Story() {
                 </div>
                 </div>
             </section>
-            <section className='flex w-full justify-between items-center h-fit py-20'>
+            <section className='flex w-full justify-between items-center h-fit py-0 md:py-20'>
             <div className='flex flex-col justify-evenly h-full w-10/12 mx-auto text-left align-items'>
                     <div className='tagline w-full px-10 text-xl'>                        
-                        <h4>Initially created to provide operational support for our growing businesses, we quickly realised we had a talent acquisition service that could benefit companies across Australia and the world. But rather than follow the traditional approach to outsourcing, we <span className="text-highlight">wanted to build genuine and lasting relationships with the people who support</span>our business.</h4>
+                        <div className="hidden md:block"><h4>Initially created to provide operational support for our growing businesses, we quickly realised we had a talent acquisition service that could benefit companies across Australia and the world. But rather than follow the traditional approach to outsourcing, we <span className="text-highlight">wanted to build genuine and lasting relationships with the people who support</span>our business.</h4></div>
                         <br />
                         <h4>In 2023, we established our own office in Cebu City, where we have <span className="text-highlight">a team of 20+ wonderful people with a wide breadth of skill and specialisation.</span> Situated on Cebu Island, in South-Central Philippines, Cebu is a vibrant and evolving city. With a population of more than one million, and a median age of 25, this rapidly growing city plays a vital role in the Philippines' emerging economy.</h4>
                         <br />
@@ -36,7 +36,7 @@ function Story() {
                     </div>
             </div>
             </section>
-            <section className="flex relative align-middle justify-between text-centermax-w-screen-xl px-4 mx-auto md:flex-row sm:px-6 p-8 bg-white mb-20">
+            <section className="hidden md:flex relative align-middle justify-between text-centermax-w-screen-xl px-4 mx-auto md:flex-row sm:px-6 p-8 bg-white md:mb-20 py-0">
             <div className="flex mx-auto my-auto max-w-screen-xl px-4 text-center lg:py-16 lg:px-6 align-middle">
                 <figure className="max-w-screen-lg mx-auto">
                     <div className="max-w-4xl p-4">
